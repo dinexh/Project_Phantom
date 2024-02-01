@@ -4,10 +4,7 @@ The Structure for now. (As of brainstrom V1)
    - Activities
    - Projects
    - Blogs
-   - Gallery
-   - Benefits
    - Team
-   - FAQ’s
 2. About Section*
    - Brief description of Phantom and ZeroOne.
    - "Learn More" link for detailed information.
@@ -20,16 +17,10 @@ The Structure for now. (As of brainstrom V1)
 5. Blogs Section:
    - Excerpts from recent blog posts.
    - "Read More" link for full posts.
-6. Gallery Section:
-   - Visual showcase of events, projects, and activities.
-7. Benefits Section:
-   - Overview of the team's associated benefits.
-8. Team Section:
+6. Team Section:
    - List of team members with positions, portfolios, and skills.
    - Social links (GitHub, LinkedIn) for each.
-9. FAQ’s Section:
-   - Frequently Asked Questions.
-10. Footer:
+7. Footer:
    - Contact information.
    - Social media links.
    - Copyright information.
