@@ -1,7 +1,7 @@
 
- ZeroOne Club - Phantom Team Showcase
+ ZeroOne Club - Phantom Team Website
 
-Welcome to the ZeroOne Club's Phantom Team Showcase! This website serves as a platform to spotlight our team's projects, learning initiatives, and the diverse domains we work in.
+Welcome to the ZeroOne Club's Phantom Team WebPage! This website serves as a platform to spotlight our team's projects, learning initiatives, and the diverse domains we work in.
 
 Sections
 
