@@ -7,8 +7,12 @@
     font-family: poppins;
     
 }
-
+.HeroPage{
+    height: 100vh;
+    width: 100%;
+}
 .nav {
+    height: 10vh;
     width: 100%;
     background-color: black;
     color: white;
@@ -82,4 +86,62 @@
 .nav-in-three-in :not(a:hover){
     background-color: black; 
     transition: .5s ease;
+}
+.footer{
+    height: 55vh;
+    width: 100%;
+    background-color:black;
+    color: white;
+}
+.footer-in-one{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid grey;
+}
+.one-in-one{
+    height: 8vh;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one-in-two{
+    height: 8vh;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-in-two{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+
+.in-two-one{
+    height:40vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-two-two{
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-in-three{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.1rem solid grey;
 }
