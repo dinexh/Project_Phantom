@@ -7,6 +7,9 @@
     font-family: poppins;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 .HomePage{
     height: 100vh;
     width: 100%;
@@ -89,26 +92,59 @@
     transition: .5s ease;
 }
 .about-section{
-    height: 60vh;
+    height: 70vh;
     width: 100%;
-    display: flex;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
     background-color: black;
     color: white;
 }
-.about-section-one{
-    height: 60vh;
-    width: 60%;
+.about-in{
+    height: 65vh;
+    width: 87%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-in-one{
+    height: 64vh;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: start;
 }
-.about-section-two{
+.about-in-one h1{
+    font-size: 3rem;
+}
+.about-in-one a{
+    text-decoration: white;
+}
+.about-in-two{
+    height: 64vh;
+    width: 47%;
+}
+.Domain{
     height: 60vh;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+}
+.Project{
+    height: 60vh;
+    width: 100%;
+}
+.Team{
+    height: 60vh;
+    width: 100%;
+}
+.Blogs{
+    height: 60vh;
+    width: 100%;
+}
+.FAQS{
+    height: 60vh;
+    width: 100%;
 }
 .footer{
     height: 45vh;
@@ -143,7 +179,6 @@
     width: 100%;
     display: flex;
 }
-
 .in-two-one{
     height:33vh;
     width: 50%;
@@ -160,7 +195,6 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
 .footer-in-three{
     height: 7vh;
     width: 100%;
@@ -170,7 +204,6 @@
     align-items: center;
     border-top: 0.1rem solid grey;
 }
-
 .in-two-two-icons{
     width: 20rem;
     display: flex;
