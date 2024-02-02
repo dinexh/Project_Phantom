@@ -1,35 +1,45 @@
-The Structure for now. (As of brainstrom V1)
-1. Navigation Bar:
-   - About Phantom 
-   - Activities
-   - Projects
-   - Blogs
-   - Gallery
-   - Benefits
-   - Team
-   - FAQ’s
-2. About Section*
-   - Brief description of Phantom and ZeroOne.
-   - "Learn More" link for detailed information.
-3. Activities Section:
-   - Concise info on ongoing/upcoming activities.
-   - "Learn More" link for details.
-4. Projects Section:
-   - Short descriptions of current and past projects.
-   - "Learn More" link for project details.
-5. Blogs Section:
-   - Excerpts from recent blog posts.
-   - "Read More" link for full posts.
-6. Gallery Section:
-   - Visual showcase of events, projects, and activities.
-7. Benefits Section:
-   - Overview of the team's associated benefits.
-8. Team Section:
-   - List of team members with positions, portfolios, and skills.
-   - Social links (GitHub, LinkedIn) for each.
-9. FAQ’s Section:
-   - Frequently Asked Questions.
-10. Footer:
-   - Contact information.
-   - Social media links.
-   - Copyright information.
+
+ ZeroOne Club - Phantom Team Website
+
+Welcome to the ZeroOne Club's Phantom Team WebPage! This website serves as a platform to spotlight our team's projects, learning initiatives, and the diverse domains we work in.
+
+Sections
+
+1. Hero Page:
+   - Entry point featuring the club's logo, navigation links, and a call-to-action to join our Telegram community.
+
+2. About Phantom:
+   - Introduction to our team, including a short description and links to the official club website.
+
+3. Domains:
+   - Overview of our diverse areas of work, illustrating the team's expertise.
+
+4. Projects:
+   - Showcase of our notable projects with detailed descriptions and images.
+
+5. Team:
+   - Individual profiles of Phantom team members, highlighting roles, expertise, and personal interests.
+
+6. Blogs:
+   - Highlights our latest blog posts and news updates with summaries and links to full articles.
+
+7. FAQ
+   - Answers to frequently asked questions about the Phantom team.
+
+Team Contributions
+
+- Dinesh:
+   - Project Lead, overseeing Hero Page, Main Page, and Domains.
+
+- Yashaswini:
+   - Developed the Team section.
+
+- Kavya:
+   - Contributed to the Blog section.
+
+- Sai Sree:
+   - Led the development of the Projects section.
+
+- Nithin:
+   - Assisted in Hero Page, Main Page, and Domains development.
+
