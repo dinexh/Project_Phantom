@@ -1,0 +1,71 @@
+.main {
+  background-color: black;
+  color: white;
+}
+
+.main-in-one {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 4rem 2rem 4rem;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.main-in-one-para {
+  /* margin toppp righ botom left; */
+  margin: 9px 120px 0px 120px;
+}
+
+#heading {
+  color: white;
+  text-shadow: 5px 4px 4px rgb(27, 111, 245);
+  font-weight: 470;
+  font-size: 70px;
+}
+#text {
+  font-weight: 1px;
+  color: rgba(186, 203, 218, 0.674);
+  font-size: 25px;
+}
+.card {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin: 0px 0px 40px 9px auto;
+}
+.card-one,
+.card-three,
+.card-two {
+  border: 2px solid azure;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  /* border: 2px solid red; */
+
+  padding: 30px;
+}
+#text-card {
+  padding: 3px;
+  font-size: 9px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+#link {
+  font-size: 30px;
+  border-top: 2px solid white;
+}
+#link a {
+  color: white;
+  /* border: 2px solid white; */
+}
