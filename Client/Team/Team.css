@@ -8,7 +8,7 @@
   width: 100%;
   margin: auto;
   padding: 2rem 4rem 2rem 4rem;
-  font-size: 10px;
+  /* font-size: 10px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,12 +24,13 @@
   color: white;
 
   font-weight: 470;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 2rem;
 }
 #text {
-  font-weight: 1px;
+  /* font-weight: 0px 30 px=2rem; */
   color: rgba(186, 203, 218, 0.674);
-  font-size: 15px;
+  font-size: 1rem;
 }
 .card {
   /* border: 2px solid red; */
@@ -37,8 +38,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin: 8px 0px 30px 9px;
+  gap: 1rem;
+  margin: 8px 0px 0px 9px;
 
 }
 .card-one,
@@ -46,31 +47,30 @@
 .card-two,
 .card-four {
   border: 1px solid azure;
-  /* width: 26%; */
+
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
-  /* overflow: hidden; */
 }
 .card img {
-  /* border: 2px soli
-  d red; */
+  
   width: 250px;
   padding: 10px;
 }
 #text-card {
   padding: 1px;
-  font-size: 8px;
+  font-size: 0.5rem;
   text-align: center;
   color: white;
-
+margin-top: -5px;
 }
 #link {
-  font-size: 20px;
+  font-size: 1.5rem;
   border-top: 2px solid white;
+  margin-top: 14px;
 }
 #link a {
   color: white;
@@ -78,7 +78,6 @@
 }
 
 #link a:hover{
- 
-  font-size: 21px;
+  font-size: 1.59rem;
 }
 
