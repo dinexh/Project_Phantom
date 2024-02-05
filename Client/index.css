@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
-    
+    color: white;
 }
 html{
     scroll-behavior: smooth;
@@ -36,7 +36,7 @@ html{
     color: white;
 }
 .nav-in-one-in h1 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: white;
 }
 .nav-in-two {
@@ -96,7 +96,7 @@ html{
     transition: .5s ease;
 }
 .about-section{
-    height: 70vh;
+    height: 65vh;
     width: 100%;
     display: flex; 
     justify-content: space-evenly;
@@ -121,7 +121,10 @@ html{
     align-items: start;
 }
 .about-in-one h1{
-    font-size: 3rem;
+    font-size: 2rem;
+}
+.about-in-one p{
+    font-size: 0.9rem;
 }
 .about-in-one a{
     text-decoration: white;
@@ -130,97 +133,44 @@ html{
     height: 64vh;
     width: 47%;
 }
-.Domain{
-    height: 60vh;
+.Domain{    
+    height: 85vh;
     width: 100%;
+    background-color: black;
 }
-.Project{
-    height: 60vh;
-    width: 100%;
+.Domain-in-one span{
+    color: orange ;
 }
-.Team{
-    height: 60vh;
-    width: 100%;
-}
-.Blogs{
-    height: 60vh;
-    width: 100%;
-}
-.FAQS{
-    height: 60vh;
-    width: 100%;
-}
-.footer{
-    height: 45vh;
-    width: 100%;
-    background-color:black;
-    color: white;
-}
-.footer-in-one{
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 0.1rem solid grey;
-}
-.one-in-one{
-    height: 5vh;
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.one-in-two{
-    height: 5vh;
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer-in-two{
-    height: 33vh;
-    width: 100%;
-    display: flex;
-}
-.in-two-one{
-    height:33vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.in-two-two{
-    height: 33vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.footer-in-three{
-    height: 7vh;
+.Domain-in-one{
+    height: 12vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-top: 0.1rem solid grey;
+    align-items: center ;
 }
-.in-two-two-icons{
-    width: 20rem;
+.Domain-in-two{
+    height: 73vh;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+    align-items: center;
 }
-.in-two-two-icons i{
-    font-size: 1.6rem;
+.Domain-in-two-in{
+    height: 73vh;
+    width: 95%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+
 }
-.in-two-two-icons:hover > i {
-    opacity: 1;
-}
-.in-two-two-icons:hover > i:hover {
-    color:blue;
-    opacity: 1;
+.box{
+    height: 73vh;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
