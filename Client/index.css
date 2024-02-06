@@ -21,6 +21,8 @@ html{
     color: white;
     display: flex;
     align-items: center;
+    top:0;
+    position: sticky;
 }
 .nav-in {
     width: 95%;
@@ -104,7 +106,7 @@ html{
     border-top: 1px ;
     height: 11.2vh;
     width: 100%;
-    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);overflow-x:;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -124,13 +126,13 @@ html{
     align-items: center;
     width: 150px;
     height: 50px;
-    border: 3px solid blue;
+    border: 3px solid red;
     border-radius: 45px;
     transition: all 0.3s;
     cursor: pointer;
 }
 .dive-in-button:hover{
-    background: #315cfd;
+    background: red;
     color: white;
     font-size: 1.5em;
 
@@ -138,7 +140,7 @@ html{
 .Images_Section{
     height: 70vh;
     width: 100%;
-}
+}   
 .about-section{
     height: 65vh;
     width: 100%;
