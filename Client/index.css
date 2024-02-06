@@ -95,6 +95,50 @@ html{
     background-color: black; 
     transition: .5s ease;
 }
+.heropage{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+.dive_section{
+    border-top: 1px ;
+    height: 11.2vh;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.dive_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dive-in-button h4{
+    color: white;
+}
+.dive-in-button{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 3px solid blue;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.dive-in-button:hover{
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+
+}
+.Images_Section{
+    height: 70vh;
+    width: 100%;
+}
 .about-section{
     height: 65vh;
     width: 100%;
@@ -133,7 +177,7 @@ html{
     height: 64vh;
     width: 47%;
 }
-.Domain{    
+.Domain{  
     height: 85vh;
     width: 100%;
     background-color: black;
