@@ -8,7 +8,6 @@
   width: 100%;
   margin: auto;
   padding: 2rem 4rem 2rem 4rem;
-  /* font-size: 10px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,15 +15,12 @@
   justify-content: center;
 }
 .main-in-one-para {
- 
   margin: 9px 120px 0px 120px;
 }
 
 #heading {
   color: white;
-
-  font-weight: 470;
-  /* font-size: 30px; */
+  font-weight:470;
   font-size: 2rem;
 }
 #text {
@@ -36,6 +32,7 @@
   /* border: 2px solid red; */
 
   display: flex;
+
   align-items: center;
   justify-content: center;
   gap: 1rem;
@@ -80,4 +77,46 @@ margin-top: -5px;
 #link a:hover{
   font-size: 1.59rem;
 }
+#teamIcon{
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 600px) {
+
+  .card {
+    flex-direction: column;
+    gap: 0.5rem; 
+  }
+  .card img {
+    width: 120px;
+    padding: 5px; 
+  }
+  #text-card {
+    font-size: 0.3rem; 
+    margin-top: -3px; 
+  }
+  #link {
+    font-size: 0.5rem;
+    margin-top: 8px;
+  }
+  #heading {
+      font-size: 0.4rem;
+      font-weight: 470;
+    }
+    #text {
+      font-size: 0.4rem;
+    }
+    .main-in-one-para {
+      margin: 9px 60px 0px 60px;
+    }
+    #card-heading{
+      font-size: 0.5rem;
+    }
+    #teamIcon{
+    font-size: 0.3rem;
+    }
+  }
+
+ 
+  
+
 
