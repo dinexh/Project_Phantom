@@ -282,16 +282,39 @@ html{
     font-size:  x-large;
 }
 footer{
-    height: 50vh;
+    height: 55vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
     border-top: 2px solid grey;
     background-color: black;
+    border-bottom: 2px solid grey;
+}
+.footer-one{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+.footer-in-one{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-in-two{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .footer-in{
-    height: 40vh;
+    height: 50vh;
     width: 97%;
     background-color: black;
     display: flex;
