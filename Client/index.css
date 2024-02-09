@@ -136,10 +136,42 @@ html{
     font-size: 1.5em;
 
 }
-.Images_Section{
-    height: 70vh;
+.NumberSection{
+    height: 60vh;
     width: 100%;
+    background-color: black;
+    border-top: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }   
+.NumberSection-in{
+    height: 55vh;
+    width: 98%;
+}
+.NumberSection-one{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.NumberSection-two{
+    height: 46vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    height: 20vh;
+    width: 30%;
+}
+.Countbox{
+    height: 40vh;
+    width: 35%;
+    background-color: grey;
+}
 .about-section{
     height: 65vh;
     width: 100%;
@@ -150,7 +182,7 @@ html{
     color: white;
 }
 .about-in{
-    height: 65vh;
+    height: 60vh;
     width: 87%;
     border-radius: 20px;
     display: flex;
@@ -182,6 +214,7 @@ html{
     height: 85vh;
     width: 100%;
     background-color: black;
+    border-top: 2px solid grey;
 }
 .Domain-in-one span{
     color: orange ;
