@@ -115,9 +115,9 @@ margin-top: 20px;
 .card-two:hover,
 .card-three:hover,
 .card-four:hover {
-  transform: translateY(-8px); 
+  transform: scale(0.9); 
   box-shadow: #88a0fd 0px -65px 36px -28px inset;
-  transition: transform 0.3s ease, box-shadow 1.2s ease;
+  transition: transform 0.5s ease, box-shadow 1.2s ease;
 
 }
 .main-in-four{
