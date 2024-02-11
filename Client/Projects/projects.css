@@ -89,7 +89,6 @@
     transition: .5s ease;
 }
 
-
 .one-in-one{
     height: 5vh;
     width: 25%;
@@ -217,3 +216,4 @@ h1,h2{
         padding-left: 10px;
     }
   }
+
