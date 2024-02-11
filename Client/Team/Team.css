@@ -24,18 +24,15 @@
   font-size: 2rem;
 }
 #text {
-  /* font-weight: 0px 30 px=2rem; */
   color: rgba(186, 203, 218, 0.674);
   font-size: 1rem;
 }
 .card {
-  /* border: 2px solid red; */
-
+  
   display: flex;
-
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 8rem;
   margin: 8px 0px 0px 9px;
 
 }
@@ -43,39 +40,40 @@
 .card-three,
 .card-two,
 .card-four {
-  border: 1px solid azure;
-
-  border-radius: 4px;
+  height: 35vh;
+  border: 2px solid #8c9acf;
+margin-top: 10px;
+width: 20%;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
 }
-.card img {
-  
-  width: 250px;
-  padding: 10px;
-}
+
 #text-card {
-  padding: 1px;
+  padding: 15px;
   font-size: 0.5rem;
   text-align: center;
   color: white;
-margin-top: -5px;
+margin-top: 30px;
+
 }
 #link {
   font-size: 1.5rem;
   border-top: 2px solid white;
   margin-top: 14px;
 }
-#link a {
-  color: white;
-  /* border: 2px solid white; */
+#card-heading{
+ font-weight: 500;
+margin-top: 20px;
 }
 
 #link a:hover{
   font-size: 1.59rem;
+  color: blue;
+  text-decoration-color: aqua;
 }
 #teamIcon{
   font-size: 1.3rem;
@@ -86,10 +84,7 @@ margin-top: -5px;
     flex-direction: column;
     gap: 0.5rem; 
   }
-  .card img {
-    width: 120px;
-    padding: 5px; 
-  }
+  
   #text-card {
     font-size: 0.3rem; 
     margin-top: -3px; 
@@ -116,7 +111,21 @@ margin-top: -5px;
     }
   }
 
- 
-  
+.card-one:hover,
+.card-two:hover,
+.card-three:hover,
+.card-four:hover {
+  transform: translateY(-8px); 
+  box-shadow: #88a0fd 0px -65px 36px -28px inset;
+  transition: transform 0.3s ease, box-shadow 1.2s ease;
+
+}
+.main-in-four{
+  margin-top: 30px;
+}
+.card{
+  margin-top: 20px;
+}
+
 
 
