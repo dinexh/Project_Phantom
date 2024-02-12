@@ -98,79 +98,19 @@ html{
     transition: .5s ease;
 }
 .heropage{
-    height: 80vh;
+    height: 100vh;
     width: 100%;
-    background-color: black;
-}
-.dive_section{
-    border-top: 1px ;
-    height: 11.2vh;
-    width: 100%;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
     display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.dive_in{
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.dive-in-button h4{
-    color: white;
+.heropage span{
+    color: orange;
 }
-.dive-in-button{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    border: 3px solid red;
-    border-radius: 45px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-.dive-in-button:hover{
-    background: red;
-    color: white;
-    font-size: 1.5em;
-
-}
-.NumberSection{
-    height: 60vh;
-    width: 100%;
-    background-color: black;
-    border-top: 2px solid grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-.NumberSection-in{
-    height: 55vh;
-    width: 98%;
-}
-.NumberSection-one{
-    height: 9vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.NumberSection-two{
-    height: 46vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.box{
-    height: 20vh;
-    width: 30%;
-}
-.Countbox{
-    height: 40vh;
-    width: 35%;
-    background-color: grey;
+.heropage h1{
+    font-size: 3.5rem;
 }
 .about-section{
     height: 65vh;
@@ -211,10 +151,14 @@ html{
     width: 47%;
 }
 .Domain{  
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     background-color: black;
     border-top: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
 }
 .Domain-in-one span{
     color: orange ;
@@ -228,7 +172,7 @@ html{
     align-items: center ;
 }
 .Domain-in-two{
-    height: 73vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -250,26 +194,63 @@ html{
     justify-content: center;
     align-items: center;
 }
-.faqs{
-    border-top: 2px solid white;
-    height: 60vh;
+.blogs{
+    height: 75vh;
     width: 100%;
-    background-color: black; 
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    background-color: black;
+    border-top: 1px solid white;    
+    border-bottom: 1px solid white;   
 }
-.faqs-in{
-    height: 55vh;
-    width: 95%;
+.blogs-in{
+ height: 70vh;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Blogs-box-in{
+    height: 65vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Blogs-box{
+    height: 40vh;
+    width: 32%;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+}
+.Blogs-box a{
+    text-decoration: none;
+}
+.Faqs{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+}  
+.Faqs-in{
+    height: 57vh;
+    width: 98%;
 }
 .Collab{
     color: white;
     height: 50vh;
     width: 100%;
     background-color: black;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
     display: flex;
     justify-content: space-around;
     align-items: center;
