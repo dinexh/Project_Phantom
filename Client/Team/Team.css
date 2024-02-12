@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
 .main {
   background-color: black;
   color: white;
@@ -20,7 +22,7 @@
 
 #heading {
   color: white;
-  font-weight:470;
+  font-weight:bold;
   font-size: 2rem;
 }
 #text {
@@ -32,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8rem;
+  gap: 4rem;
   margin: 8px 0px 0px 9px;
 
 }
@@ -40,11 +42,12 @@
 .card-three,
 .card-two,
 .card-four {
-  height: 35vh;
+  
+  height: 14rem;
   border: 2px solid #8c9acf;
 margin-top: 10px;
 width: 20%;
-  border-radius: 5px;
+ border-radius: 0.4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,7 +69,7 @@ margin-top: 30px;
   margin-top: 14px;
 }
 #card-heading{
- font-weight: 500;
+ font-weight: bold;
 margin-top: 20px;
 }
 
@@ -75,41 +78,6 @@ margin-top: 20px;
   color: blue;
   text-decoration-color: aqua;
 }
-#teamIcon{
-  font-size: 1.3rem;
-}
-@media screen and (max-width: 600px) {
-
-  .card {
-    flex-direction: column;
-    gap: 0.5rem; 
-  }
-  
-  #text-card {
-    font-size: 0.3rem; 
-    margin-top: -3px; 
-  }
-  #link {
-    font-size: 0.5rem;
-    margin-top: 8px;
-  }
-  #heading {
-      font-size: 0.4rem;
-      font-weight: 470;
-    }
-    #text {
-      font-size: 0.4rem;
-    }
-    .main-in-one-para {
-      margin: 9px 60px 0px 60px;
-    }
-    #card-heading{
-      font-size: 0.5rem;
-    }
-    #teamIcon{
-    font-size: 0.3rem;
-    }
-  }
 
 .card-one:hover,
 .card-two:hover,
@@ -126,6 +94,41 @@ margin-top: 20px;
 .card{
   margin-top: 20px;
 }
+@media screen and (max-width: 1000px) {
+  .main-in-one {
+    padding: 2rem 1rem;
+  }
+  
+  .main-in-one-para {
+    margin: 9px 20px;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card-one,
+  .card-two,
+  .card-three,
+  .card-four {
+    width: 80%;
+  }
+
+  #text-card {
+    margin-top: 10px;
+  }
+
+ 
 
 
+  .main-in-four {
+    margin-top: 20px;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+
+}
 
