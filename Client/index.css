@@ -150,6 +150,50 @@ html{
     height: 64vh;
     width: 47%;
 }
+.Count{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid white;
+}
+.Count-in{
+    height:62vh;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counters{
+    font-size: 3rem;
+    height: 10vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.counter-in-two{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:0.5rem;
+}
+.counter-box{
+    border:2px solid orange;
+    height: 40vh;
+    width: 30%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .Domain{  
     height: 90vh;
     width: 100%;
@@ -158,7 +202,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content:space-around;
 }
 .Domain-in-one span{
     color: orange ;
@@ -180,6 +224,7 @@ html{
 }
 .Domain-in-two-in{
     height: 73vh;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
     width: 95%;
     border-radius: 20px;
     display: flex;
@@ -220,6 +265,7 @@ html{
     align-items: center;
 }
 .Blogs-box{
+    padding: 2rem;
     height: 40vh;
     width: 32%;
     box-shadow: 1px 1px 1px 1px grey;
@@ -303,11 +349,10 @@ footer{
     align-items: center;
     border-top: 2px solid grey;
     background-color: black;
-}
+}   
 .footer-in{
     height: 40vh;
     width: 97%;
-    background-color: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
