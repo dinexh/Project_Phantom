@@ -10,6 +10,7 @@
 }
 .HomePage{
     width: 100%;
+    position: fixed;
 }
 .nav {
     height: 10vh;
@@ -106,6 +107,8 @@
   .cap{
     height: 10vh;
     width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
     color: white;
     text-align: center;
     display: flex;
