@@ -20,7 +20,9 @@ html{
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    top: 0;
+    position: sticky;
 }
 .nav-in {
     width: 95%;
@@ -56,6 +58,9 @@ html{
     color: white;
     font-size: 0.9rem;
     font-weight: 400;
+}
+.nav-in-one-in span{
+    color: blu;
 }
 .nav-in-three {
     width: 20%;
@@ -95,6 +100,22 @@ html{
     background-color: black; 
     transition: .5s ease;
 }
+.heropage{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heropage span{
+    color: #8c9acf;
+}
+.heropage h1{
+    font-size: 3.5rem;
+}
 .about-section{
     height: 65vh;
     width: 100%;
@@ -105,11 +126,11 @@ html{
     color: white;
 }
 .about-in{
-    height: 65vh;
+    height: 60vh;
     width: 87%;
     border-radius: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .about-in-one{
@@ -133,44 +154,180 @@ html{
     height: 64vh;
     width: 47%;
 }
-.Domain{    
-    height: 85vh;
+.counter{
+    height: 50vh;
     width: 100%;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid white;
 }
-.Domain-in-one span{
-    color: orange ;
+.counter-in {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+} 
+.count{
+    font-size: 3em;
+    color: #333;
 }
-.Domain-in-one{
-    height: 12vh;
+.Domain{
+    border-top: 1px solid white;
+    height: 90vh;
+    width: 100%;
+    background-color: black ;
+}   
+.blogs{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid white;    
+    border-bottom: 1px solid white;   
+}
+.blogs-in{
+ height: 70vh;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Blogs-box-in{
+    height: 65vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Blogs-box{
+    padding: 2rem;
+    height: 40vh;
+    width: 32%;
+    box-shadow: 1px 1px 1px 1px #8c9acf;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+}
+.Blogs-box a{
+    text-decoration: none;
+}
+.Faqs{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}  
+.Faqs-in{
+    height: 57vh;
+    width: 98%;
+}
+.Collab{
+    color: white;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Collab-in{
+    height: 48vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Collab-in-one{
+    height: 48vh;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Collab-in-two{
+    height: 48vh;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Collab-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    height: 8vh;
+    width: 20%;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.Collab-button:hover{
+    transition: 3ms;
+    background-color: blue;
+    font-size:  x-large;
+}
+footer{
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
-}
-.Domain-in-two{
-    height: 73vh;
-    width: 100%; 
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-.Domain-in-two-in{
-    height: 73vh;
-    width: 95%;
-    border-radius: 20px;
+    border-top: 2px solid grey;
+    background-color: black;
+} 
+.footer-in{
+    height: 45vh;
+    width: 97%;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
-
+    justify-content: space-evenly;
+    align-items: center; 
 }
-.box{
-    height: 73vh;
-    width: 31%;
+.footer-section{
+    height: 40vh;
+    width: 24%;
+    color: white;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #8c9acf;
+    text-align: center;
+}
+.footer-section
+{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+
+.icons{
+    height: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    text-decoration: none;
+}
+
+
+    
