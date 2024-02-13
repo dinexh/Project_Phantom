@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./trialblog.css">
+    
+</head>
+<body>
+    <div class="blogs" id="blur">
+        <div class="nav">
+            <div class="nav-in">
+                <div class="nav-in-one">
+                    <div class="nav-in-one-in">
+                        <a href="../index.html"><h1>ZeroOne Phantom</h1></a>
+                    </div>
+                </div>
+                <div class="nav-in-two">
+                    <div class="nav-in-two-in">
+                        <a href="#About">About us</a>
+                        <a href="#">Activities</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Blogs</a>
+                        <a href="#">Team</a>
+                    </div>
+                </div>
+                <div class="nav-in-three">
+                    <div class="nav-in-three-in">
+                        <a href="#">Join the Community</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="header-one">
+                <h1>Empowering curiosity and igniting innovation</h1>
+            </div>
+            <div class="header-two">
+                <h2>Explore our blog posts</h2>
+            </div>
+            <div class="header-three">
+                <div class="header-three-in-one">
+                    <label for="cars">Choose a topic:</label>
+    
+                    <select name="topics" id="topics">
+                      <option value="personal">Personal Experience</option>
+                      <option value="technical">Technical</option>
+                      <option value="appdev">App Development</option>
+                      <option value="projects">Projects</option>
+                    </select>
+                </div>
+                <div class="header-three-in-two">
+                    <label>By keyword(s):<input type="text" style="color: black;"/></label>
+                </div>
+            </div>
+        </div>
+        <div class="content" >
+            <div class="content-one">
+                <div class=" card card1">
+                    <h2 style="padding: 2rem;"> Dockerize React App for Seamless Sharing</h2>
+                   <div class="card-ex">
+                   <a href="#" onclick="deepak()">Learn more</a>
+                </div>
+                </div>
+                <div class="card card2">
+                    <h2 style="padding: 2rem;">In the Loop:A first-year journey through ZeroOne</h2>
+                    <div class="card-ex">
+                        <a href="#"onclick="kavya()" >Learn more</a>
+                     </div>
+                </div>
+                <div class="card card3">
+                    <h2 style="padding: 2rem;">JWT authentication enhances Node.js and Express apps</h2>
+                    <div class="card-ex">
+                        <a href="#"onclick="sai()">Learn more</a>
+                     </div>
+                </div>
+            </div>
+            <div class="content-two">
+                <div class="card card4">
+                    <h2 style="padding: 2rem;">In the Loop:A first-year journey through ZeroOne</h2>
+                    <div class="card-ex">
+                        <a href="#"onclick="dinesh()">Learn more</a>
+                     </div>
+                </div>
+                <div class="card card5">
+                    <h2 style="padding: 2rem;">In the Loop:A first-year journey through ZeroOne</h2>
+                    <div class="card-ex">
+                        <a href="#"onclick="yasaswini()">Learn more</a>
+                     </div>
+                </div>
+                <div class="card card6">
+                    <h2 style="padding: 2rem;">In the Loop:A first-year journey through ZeroOne</h2>
+                    <div class="card-ex">
+                        <a href="#"onclick="saiSree()">Learn more</a>
+                     </div>
+                </div>
+    
+            </div>
+            
+        </div>
+        <footer>
+            <div class="footer-in">
+                <div class="footer-section">
+                    <img src="Assets/Phantom_logo.jpeg" height="100vh">
+                    <p>Inspiring Innovation, Empowering Creators  Where Ideas Flourish</p>
+                    @ Copyrights by ZeroOne. All Rights reserved
+                </div>
+                <div class="footer-section">
+                    <h3>Catogories</h3>
+                    <a href="#About">About us </a>
+                    <a href="#Domain">Domains</a>
+                    <a href="index.html">Projects</a>
+                    <a href="index.html">Team</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="https://klzeroone.vercel.app/">ZeroOne</a>
+                    <a href="https://sac.kluniversity.in/">SAC</a>
+                    <a href="https://zeroonelearning.vercel.app/">ZeroOne-learning</a>
+                    <a href="sac-svr.vercel.app">SVR</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Subsrcibe to our Newsletter!</h3>
+                    <h2>Znews!</h2>
+                    <div class="Subsrcibe">
+                        <form action="">
+                            <label for="email">Email:</label>
+                            <input type="email" class="input-box" id="email" required >
+                            <button>
+                                <a href="#">Submit</a>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-github"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+</footer>
+        
+        
+    
+
+    </div>
+    <div id="deepak">
+        <h2 style="margin-left: 25px;"> Dockerize React App for Seamless Sharing</h2>
+          <p style="margin-top: -2px;">-Deepak</p>
+        <p>
+
+            To simplify sharing and testing of your React app, containerize it with Docker:<br>
+            
+            Create React App:
+            Use npx create-react-app client to generate the React app.<br>
+            
+            Dockerfile Creation:
+            Within the app directory (client), create a Dockerfile with necessary configurations.<br>
+            
+            Define Docker Image:
+            Populate Dockerfile with code to define the Docker image.<br>
+            
+            Build Image:
+            Build the Docker image with docker build -t docker-react ..<br>
+            
+            Run Image:
+            Execute the image using docker run -p 3000:3000 docker-react.<br>
+            
+            View Output:
+            Visit localhost:3000 in your browser to view the application.<br>
+            
+            Containerizing your React app streamlines sharing and testing, ensuring smooth deployment across various environments.</p>
+            <div class="subfooter">
+            <a  href=" https://saitadikonda99.hashnode.dev/docker-react" >https://saitadikonda99.hashnode.dev/docker-react</a>
+            
+        <a href="#"onclick="deepak()"  style="margin-top: 2rem; padding-left: 50rem;">Close</a>
+    </div>
+    </div>
+    <div id="kavya">
+        <h2 style="margin-left: 25px;">In the Loop:A first-year journey through ZeroOne</h2>
+          <p style="margin-top: -2px;">-Kavya</p>
+        <p>My journey with zeroOne began very unexpectedly .I enrolled at KLU not because I wanted to because I had no other choice. It was my last choice institution and i had my doubts. However, everything changed when i entered into my first meeting with zeroOne. I felt a sense of belonging and instantly knew that this was where I want to spend the rest of my college years. Contrary to my initial expectations, zeroOne is far from being just a serious club. We're a group of tech enthusiasts who live for the thrill of coding and innovation.
+            From organizing captivating workshops to amazing hackathons to collaborating with other clubs on exciting projects, zeroOne is a dynamic club of creativity, knowledge and innovation. It is incredible to be surrounded by individuals who have been through the same challenges and can understand your excitement and hesitations.Our club president and his  team are nothing short of exceptional. They display dedication and vision in everything they do. It is their leadership that has made zeroOne the vibrant and thriving community it is today.
+            My preconcieved notions about zeroOne were shattered and i found an exciting world of creativity and friendship.
+            So please do come check it out.You might just find a second home and a life long passion , just as i did.  We're located at SAC hall in the R&D block</p>
+            
+        <a href="#"onclick="kavya()"  style="margin-top: 2rem; padding-left: 50rem;">Close</a>
+    </div>
+    <div id="sai">
+        <h2 style="margin-left: 25px;">JWT (JSON Web Token) authentication enhances Node.js and Express apps</h2>
+          <p style="margin-top: -2px;">-Sai</p>
+        <p>  JWTs comprise a header, payload, and signature, facilitating secure data exchange. They serve as digital ID <br>cards, streamlining authentication across websites. JWTs require minimal storage and offer robust security.<br>
+
+            To implement JWT authentication in Node.js:<br>
+            
+            Install dependencies and set environment variables.<br>
+            Connect to a MySQL database.<br>
+            Create JWT and refresh token controllers.<br>
+            Define login and refresh routes.<br>
+            Ensure 'cookie-parser' is integrated and JSON bodies are parsed in 'server.js'.<br>
+            
+            For the full code and implementation details, refer to the provided GitHub link.</p>
+            <div class="subfooter">
+            <a  href="https://saitadikonda99.hashnode.dev/jwt-authentication-with-node-js-and-express" >https://saitadikonda99.hashnode.dev/jwt-authentication-with-node-js-and-express</a>
+            
+        <a href="#"onclick="sai()" style="margin-top: 2rem; padding-left: 50rem;" >Close</a>
+    </div>
+    </div>
+    <div id="dinesh">
+        <h2 style="margin-left: 25px;">In the Loop:A first-year journey through ZeroOne</h2>
+          <p style="margin-top: -2px;">-Dinesh</p>
+        <p>My journey with zeroOne began very unexpectedly .I enrolled at KLU not because I wanted to because I had no other choice. It was my last choice institution and i had my doubts. However, everything changed when i entered into my first meeting with zeroOne. I felt a sense of belonging and instantly knew that this was where I want to spend the rest of my college years. Contrary to my initial expectations, zeroOne is far from being just a serious club. We're a group of tech enthusiasts who live for the thrill of coding and innovation.
+            From organizing captivating workshops to amazing hackathons to collaborating with other clubs on exciting projects, zeroOne is a dynamic club of creativity, knowledge and innovation. It is incredible to be surrounded by individuals who have been through the same challenges and can understand your excitement and hesitations.Our club president and his  team are nothing short of exceptional. They display dedication and vision in everything they do. It is their leadership that has made zeroOne the vibrant and thriving community it is today.
+            My preconcieved notions about zeroOne were shattered and i found an exciting world of creativity and friendship.
+            So please do come check it out.You might just find a second home and a life long passion , just as i did.  We're located at SAC hall in the R&D block</p>
+            
+        <a href="#"onclick="dinesh()"  style="margin-top: 2rem; padding-left: 50rem;">Close</a>
+    </div>
+    <div id="yasaswini">
+        <h2 style="margin-left: 25px;">In the Loop:A first-year journey through ZeroOne</h2>
+          <p style="margin-top: -2px;">-Yasaswini</p>
+        <p>My journey with zeroOne began very unexpectedly .I enrolled at KLU not because I wanted to because I had no other choice. It was my last choice institution and i had my doubts. However, everything changed when i entered into my first meeting with zeroOne. I felt a sense of belonging and instantly knew that this was where I want to spend the rest of my college years. Contrary to my initial expectations, zeroOne is far from being just a serious club. We're a group of tech enthusiasts who live for the thrill of coding and innovation.
+            From organizing captivating workshops to amazing hackathons to collaborating with other clubs on exciting projects, zeroOne is a dynamic club of creativity, knowledge and innovation. It is incredible to be surrounded by individuals who have been through the same challenges and can understand your excitement and hesitations.Our club president and his  team are nothing short of exceptional. They display dedication and vision in everything they do. It is their leadership that has made zeroOne the vibrant and thriving community it is today.
+            My preconcieved notions about zeroOne were shattered and i found an exciting world of creativity and friendship.
+            So please do come check it out.You might just find a second home and a life long passion , just as i did.  We're located at SAC hall in the R&D block</p>
+            
+        <a href="#"onclick="yasaswini()"  style="margin-top: 2rem; padding-left: 50rem;">Close</a>
+    </div>
+    <div id="saiSree">
+        <h2 style="margin-left: 25px;">In the Loop:A first-year journey through ZeroOne</h2>
+          <p style="margin-top: -2px;">-Sai Sree</p>
+        <p>My journey with zeroOne began very unexpectedly .I enrolled at KLU not because I wanted to because I had no other choice. It was my last choice institution and i had my doubts. However, everything changed when i entered into my first meeting with zeroOne. I felt a sense of belonging and instantly knew that this was where I want to spend the rest of my college years. Contrary to my initial expectations, zeroOne is far from being just a serious club. We're a group of tech enthusiasts who live for the thrill of coding and innovation.
+            From organizing captivating workshops to amazing hackathons to collaborating with other clubs on exciting projects, zeroOne is a dynamic club of creativity, knowledge and innovation. It is incredible to be surrounded by individuals who have been through the same challenges and can understand your excitement and hesitations.Our club president and his  team are nothing short of exceptional. They display dedication and vision in everything they do. It is their leadership that has made zeroOne the vibrant and thriving community it is today.
+            My preconcieved notions about zeroOne were shattered and i found an exciting world of creativity and friendship.
+            So please do come check it out.You might just find a second home and a life long passion , just as i did.  We're located at SAC hall in the R&D block</p>
+            
+        <a href="#"onclick="saiSree()"  style="margin-top: 2rem; padding-left: 50rem;">Close</a>
+    </div>
+
+    <script type="text/javascript">
+        function deepak(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var deepak = document.getElementById('deepak');
+            deepak.classList.toggle('active');
+        }
+        function kavya(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var kavya = document.getElementById('kavya');
+            kavya.classList.toggle('active'); 
+        }
+        function sai(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var sai = document.getElementById('sai');
+            sai.classList.toggle('active'); 
+        }
+        function dinesh(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var dinesh = document.getElementById('dinesh');
+            dinesh.classList.toggle('active'); 
+        }
+        function yasaswini(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var yasaswini = document.getElementById('yasaswini');
+            yasaswini.classList.toggle('active'); 
+        }
+        function saiSree(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var saiSree = document.getElementById('saiSree');
+            saiSree.classList.toggle('active'); 
+        }
+    </script>
+    
+    
+</body>
+</html>
