@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap");
 
 * {
     margin: 0;
@@ -236,17 +237,27 @@ html{
 .Blogs-box a{
     text-decoration: none;
 }
+
 .Faqs{
+    display: flex;
+    width: 100%;
+    
+    height: 60vh;
+}
+
+.faqs-in-one{
     height: 60vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
+    flex-direction: column;
 }  
-.Faqs-in{
+.faqs-in{
     height: 57vh;
-    width: 98%;
+    width: 50%;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,6 +361,83 @@ button{
     text-decoration: none;
     color: black;
 }
+
+.question{
+    display: flex;
+    flex-direction: column;
+    font-family: "sora", sans-serif;
+    max-width: 991px;
+    max-width: 320px;
+    margin: 50px auto;
+    padding: 0 50px;
+    
+
+}
+
+.question h1{
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.question-item{
+    margin-top: 16px;
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.faqs-in .question-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.faqs-in  .question-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #ddd;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+}
+.faqs-in  input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.faqs-in  input[type="checkbox"]:checked ~ .question-item-desc {
+    display: block;
+}
+.faqs-in 
+    input[type="checkbox"]:checked
+    ~ .question-item-title
+    .icon:after {
+    content: "-";
+    font-size: 20px;
+}
+.faqs-in  input[type="checkbox"] ~ .question-item-title .icon:after {
+    content: "+";
+    font-size: 20px;
+}
+.faqs-in :first-child {
+    margin-top: 0;
+}
+.faqs-in  .icon {
+    margin-left: 14px;
+}
+
 
 
     
