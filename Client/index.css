@@ -161,12 +161,12 @@ html{
     width: 47%;
 }
 .counter{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-;
+    justify-content: space-evenly;
     align-items: center;
     border-top: 1px solid white;
 }
@@ -192,10 +192,19 @@ html{
 }
 .Domain{
     border-top: 1px solid white;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background-color: black ;
-}   
+    background-color: black;
+}  
+.Domain-in-one{
+    height: 25vh;
+    width: 100%;
+} 
+.Domain-in-two{
+    height: 65vh;
+    width: 100%;
+
+}
 .blogs{
     height: 75vh;
     width: 100%;
@@ -244,9 +253,42 @@ html{
     align-items: center;
     background-color: black;
 }  
-.Faqs-in{
-    height: 57vh;
-    width: 98%;
+.Faq-in-one{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+.faq-container {
+    height: 50vh;
+    width: 100%;    
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}  
+details {
+    margin-bottom: 20px;
+} 
+summary {
+    cursor: pointer;
+    font-weight: bold;
+  } 
+p {
+    margin-top: 10px;
+  }
+.faq-container p{
+    background-color: blue;
+}
+.Faq-in-two{
+    height: 50vh;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
