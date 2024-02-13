@@ -238,30 +238,7 @@ html{
     text-decoration: none;
 }
 
-.Faqs{
-    display: flex;
-    width: 100%;
-    
-    height: 60vh;
-}
 
-.faqs-in-one{
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    flex-direction: column;
-}  
-.faqs-in{
-    height: 57vh;
-    width: 50%;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .Collab{
     color: white;
     height: 50vh;
@@ -345,7 +322,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
     text-align: center;
 }
 
@@ -362,82 +339,79 @@ button{
     color: black;
 }
 
-.question{
+.Domain{
     display: flex;
     flex-direction: column;
-    font-family: "sora", sans-serif;
-    max-width: 991px;
-    max-width: 320px;
-    margin: 50px auto;
-    padding: 0 50px;
-    
-
+    justify-content: space-around;
 }
 
-.question h1{
-    font-size: 32px;
+.domain-in-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 
 }
 
-.question-item{
-    margin-top: 16px;
-    border: 1px solid #fcfcfc;
-    border-radius: 6px;
-    background: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-}
-
-.faqs-in .question-item-title {
-    position: relative;
-    margin: 0;
+.domain-in-two{
     display: flex;
-    width: 100%;
-    font-size: 15px;
-    cursor: pointer;
     justify-content: space-between;
-    flex-direction: row-reverse;
-    padding: 14px 20px;
-    box-sizing: border-box;
     align-items: center;
 }
-.faqs-in  .question-item-desc {
-    display: none;
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 300;
-    color: #444;
-    border-top: 1px dashed #ddd;
-    padding: 10px 20px 20px;
-    box-sizing: border-box;
-}
-.faqs-in  input[type="checkbox"] {
+
+.flip-card {
+    background-color: transparent;
+    width: 17rem;
+    height: 21rem;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
     position: absolute;
-    height: 0;
-    width: 0;
-    opacity: 0;
-}
-.faqs-in  input[type="checkbox"]:checked ~ .question-item-desc {
-    display: block;
-}
-.faqs-in 
-    input[type="checkbox"]:checked
-    ~ .question-item-title
-    .icon:after {
-    content: "-";
-    font-size: 20px;
-}
-.faqs-in  input[type="checkbox"] ~ .question-item-title .icon:after {
-    content: "+";
-    font-size: 20px;
-}
-.faqs-in :first-child {
-    margin-top: 0;
-}
-.faqs-in  .icon {
-    margin-left: 14px;
-}
-
-
-
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid white;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    background: black;
+    color: white;
+  }
+  
+  .flip-card-back {
+    background: black;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
