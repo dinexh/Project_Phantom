@@ -8,9 +8,6 @@
     background-color: black;
     
 }
-.HomePage{
-    width: 100%;
-}
 .nav {
     height: 10vh;
     width: 100%;
@@ -18,18 +15,25 @@
     color: white;
     display: flex;
     align-items: center;
+    top:0;
+    position: fixed;
 }
 .nav-in {
     width: 95%;
     margin: auto;
     display: flex;
-    padding: 0.7rem 0rem;
+    padding: 0.5rem 0rem;
 }
 .nav-in-one {
     width: 20%;
 }
+.nav-in-one-in a {
+    text-decoration: none;
+    color: white;
+}
 .nav-in-one-in h1 {
     font-size: 1.5rem;
+    color: white;
 }
 .nav-in-two {
     width: 60%;
@@ -45,9 +49,9 @@
 }
 .nav-in-two-in a {
     text-decoration: none;
-    color: black;
     color: white;
-
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 .nav-in-three {
     width: 20%;
@@ -61,11 +65,10 @@
 }
 .nav-in-three-in a {
     text-decoration: none;
-    color: black;
-    border:2px solid grey;
-    padding: 0.5rem;
     border-radius: 0.9rem;
-    color: white;
+    color: rgb(186, 184, 184);
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
 }
 
 .nav-in-two-in a:hover{
@@ -88,37 +91,21 @@
     background-color: black; 
     transition: .5s ease;
 }
-
-.one-in-one{
-    height: 5vh;
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.one-in-two{
-    height: 5vh;
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-  .cap{
+.cap{
     height: 10vh;
     width: 100%;
     color: white;
-    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color:rgba(250, 249, 249, 0.56) 0px 22px 70px 4px;
     text-decoration-color: gray;    
-  }
+}
   .cap h1{
     font-weight: bold;
     font-size: 2rem;
-  }
+}
 .container-in-two{
     width: 80%;
     color: white;
@@ -144,7 +131,6 @@ h1,h2{
 h4{
     font-weight: lighter;
 }
-
 .one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover{
     border: 1px solid;
     box-shadow: rgba(250, 249, 249, 0.56) 0px 22px 70px 4px;
