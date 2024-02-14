@@ -12,7 +12,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 .HomePage{
     height: 99vh;
     width: 100%;
@@ -286,7 +285,7 @@ details {
 summary {
     cursor: pointer;
     font-weight: bold;
-  } 
+} 
 p {
     margin-top: 10px;
   }
@@ -345,11 +344,6 @@ p {
 .Collab-button a{
     text-decoration: none;
 }
-
-
-
-
-
 footer{
     height: 50vh;
     width: 100%;

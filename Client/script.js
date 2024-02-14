@@ -18,8 +18,6 @@ function animateCounter(targetCounts, duration) {
     if (stop) {
       clearInterval(interval);
     }
-  }, 100); // Update every 100 milliseconds
+  }, 100);
 }
-
-// Call the animateCounter function with the target counts and duration
-animateCounter([3, 10, 10, 10], 5); // Count from 0 to 3, 10, 10, 10 in 5 seconds
+animateCounter([3, 10, 10, 10], 5); 
