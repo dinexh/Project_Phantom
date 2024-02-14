@@ -7,14 +7,17 @@
     box-sizing: border-box;
     font-family: poppins;
     color: white;
+    background-color: black;
 }
 html{
     scroll-behavior: smooth;
 }
 
 .HomePage{
-    height: 100vh;
+    height: 99vh;
     width: 100%;
+    background:url(Assets/Phantom.png)no-repeat;
+    background-size: cover;
 }
 .nav {
     width: 100%;
@@ -167,7 +170,7 @@ html{
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     border-top: 1px solid white;
 }
@@ -207,25 +210,28 @@ html{
 
 }
 .blogs{
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
     border-top: 1px solid white;    
     border-bottom: 1px solid white;   
 }
 .blogs-in{
- height: 70vh;
+    height: 60vh;
     width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around   ;
+}
+.blogs-in a{
+    text-decoration: none;
 }
 .Blogs-box-in{
-    height: 65vh;
+    height: 4   5vh;
     width: 99%;
     display: flex;
     justify-content: space-around;
@@ -298,7 +304,6 @@ p {
     color: white;
     height: 50vh;
     width: 100%;
-    background-color: black;
     border-top: 1px solid white;
     display: flex;
     justify-content: space-around;
@@ -330,22 +335,21 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
-    height: 8vh;
+    height: 6vh;
     width: 20%;
-    background-color: black;
     border: 2px solid #8c9acf;
     border-radius: 10px;
     transition: all 0.3s;
     cursor: pointer;
 }
-.Collab-button:hover{
-    background-color:#8c9acf;
-    font-size:  x-large;
-}
-.Collab-in-two a{
+.Collab-button a{
     text-decoration: none;
 }
+
+
+
+
+
 footer{
     height: 50vh;
     width: 100%;
@@ -470,3 +474,4 @@ button{
     flex-direction: column;
     gap: 40px;
   }
+ 
