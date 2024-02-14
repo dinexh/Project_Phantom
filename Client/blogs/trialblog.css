@@ -18,6 +18,14 @@ body{
     top: 0;
     position: fixed;
 }
+.header-one h1{
+    font-weight: 470;
+    font-size: 2rem;
+}
+.header-two p{
+    color: rgba(186, 203, 218, 0.674);
+    font-size: 1rem;
+}
 .nav-in {
     width: 95%;
     margin: auto;
