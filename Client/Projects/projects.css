@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: poppins;
     background-color: black;
-    
 }
 .nav {
     height: 10vh;
@@ -14,8 +13,8 @@
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
-    top:0;
+    align-items: center; 
+    top: 0;
     position: fixed;
 }
 .nav-in {
@@ -47,11 +46,17 @@
     display: flex;
     justify-content: space-between;
 }
+.nav-in-one-in span{
+    color: blue;
+}
 .nav-in-two-in a {
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
     font-weight: 400;
+}
+.nav-in-one-in span{
+    color: blu;
 }
 .nav-in-three {
     width: 20%;
@@ -91,8 +96,12 @@
     background-color: black; 
     transition: .5s ease;
 }
+.Section-two{
+    height: 150vh;
+    width: 100%;
+}
 .cap{
-    height: 10vh;
+    height: 30vh;
     width: 100%;
     color: white;
     display: flex;
@@ -107,6 +116,7 @@
     font-size: 2rem;
 }
 .container-in-two{
+
     width: 80%;
     color: white;
     margin: auto;
@@ -140,6 +150,53 @@ h4{
 }
 .y{
     padding-left: 10px;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid grey;
+    background-color: black;
+} 
+.footer-in{
+    height: 45vh;
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.footer-section{
+    height: 40vh;
+    width: 24%;
+    color: white;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #8c9acf;
+}
+.footer-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.icons{
+    height: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    width: 18%;
+    text-decoration: none;
+    color: black;
 }
 @media only screen and (max-width: 1000px) {
     body {
