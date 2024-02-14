@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap"); */
 
 * {
     margin: 0;
@@ -7,25 +7,27 @@
     box-sizing: border-box;
     font-family: poppins;
     color: white;
-    background-color: black;
 }
 html{
     scroll-behavior: smooth;
 }
 .HomePage{
-    height: 99vh;
+    height: 100vh;
     width: 100%;
     background:url(Assets/Phantom.png)no-repeat;
     background-size: cover;
+    margin-top: 2rem;
+    background-color: black;
 }
 .nav {
     width: 100%;
-    background-color: black;
     color: white;
     display: flex;
     align-items: center; 
     top: 0;
     position: fixed;
+    z-index: 99;
+    backdrop-filter: blur(10px);
 }
 .nav-in {
     width: 95%;
@@ -39,6 +41,7 @@ html{
 .nav-in-one-in a {
     text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
 .nav-in-one-in h1 {
     font-size: 1.5rem;
@@ -62,11 +65,11 @@ html{
 .nav-in-two-in a {
     text-decoration: none;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 .nav-in-one-in span{
-    color: blu;
+    color: blue;
 }
 .nav-in-three {
     width: 20%;
@@ -96,6 +99,7 @@ html{
 {
     transition: .6s ease-in-out;
 }
+   
 
 .nav-in-three-in a:hover{
     background-color: blue; 
@@ -106,38 +110,27 @@ html{
     background-color: black; 
     transition: .5s ease;
 }
-.heropage{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    border-bottom: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.heropage span{
-    color: #8c9acf;
-}
-.heropage h1{
-    font-size: 3.5rem;
-}
+
+
 .about-section{
-    height: 65vh;
     width: 100%;
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
     color: white;
+    padding: 3rem 0rem;
 }
 .about-in-one span{
     color: blue;
-    font-weight: 470;
     font-size: 2rem;
+    font-weight: 600;
+}
+.about-in-one h1{
+    
 }
 .about-in-one p{
-    font-size: 1rem;
+    font-size: 2.5rem;
 }
 .about-in{
     height: 60vh;
@@ -155,70 +148,80 @@ html{
     justify-content: space-around;
     align-items: start;
 }
-.about-in-one h1{
-    font-size: 2rem;
-}
 .about-in-one p{
     font-size: 0.9rem;
 }
 .about-in-one a{
-    text-decoration: white;
+    text-decoration: none;
+    color: blue;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
 }
 .about-in-two{
     height: 64vh;
     width: 47%;
 }
 .counter{
-    height: 60vh;
     width: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-top: 1px solid white;
+    padding: 3rem 0rem;
 }
 .Count-Heading{
-    height: 15vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 3rem;
+}
+.Count-Heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Count-Heading p {
+    font-size: 1rem;
 }
 .counter-in {
-    height: 35vh;
     width: 95%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
 } 
+.counter-item p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
 .count{
-    font-size: 4em;
+    font-size: 4rem;
     color:blue;
 }
 .Domain{
-    border-top: 1px solid white;
-    height: 100vh;
     width: 100%;
     background-color: black;
+    padding: 3rem 0rem;
 }  
-.Domain-in-one{
-    height: 25vh;
+.domain-in-one{
     width: 100%;
+    padding: 1rem 0rem;
 } 
-.Domain-in-one h1{
-    font-weight: 470;
+.domain-in-one h1{
+    font-weight: 700;
     font-size: 2rem;
 }
-.Domain-in-one p{
-    color: rgb(186, 203, 218,0.674);
+.domain-in-one p{
+    color: white;
     font-size: 1rem;
 }
-.Domain-in-two{
-    height: 65vh;
-    width: 100%;
+.domain-in-two{
+    width: 90%;
+    margin: auto;
     margin-top: 30px;
 }
 .blogs{
@@ -292,10 +295,10 @@ html{
     overflow: hidden;
   }
   
-h2 {
+/* h2 {
     text-align: center;
     margin-bottom: 30px;
-}  
+}   */
 details {
     margin-bottom: 20px;
 } 
@@ -303,9 +306,9 @@ summary {
     cursor: pointer;
     font-weight: bold;
 } 
-p {
+/* p {
     margin-top: 10px;
-  }
+  } */
 .Faq-in-two{
     height: 50vh;
     width: 50%;
@@ -428,7 +431,7 @@ button{
 }
 
 .flip-card {
-    background-color: transparent;
+    background-color: black;
     width: 17rem;
     height: 21rem;
     perspective: 1000px;
@@ -466,7 +469,8 @@ button{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border: 1px solid white;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
+    padding: 0rem 1rem;
   }
   
   .flip-card-front {
@@ -482,4 +486,9 @@ button{
     flex-direction: column;
     gap: 40px;
   }
- 
+#email{
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+}
