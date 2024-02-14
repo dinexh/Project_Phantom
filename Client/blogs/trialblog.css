@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center; 
+    top: 0;
+    position: fixed;
+}
+.nav-in {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 0.5rem 0rem;
+}
+.nav-in-one {
+    width: 20%;
+}
+.nav-in-one-in a {
+    text-decoration: none;
+    color: white;
+}
+.nav-in-one-in h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-in-two {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-in-two-in {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-in-one-in span{
+    color: blue;
+}
+.nav-in-two-in a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.nav-in-one-in span{
+    color: blu;
+}
+.nav-in-three {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-in-three-in {
+    width: 90%;
+    margin: auto;
+}
+.nav-in-three-in a {
+    text-decoration: none;
+    border-radius: 0.9rem;
+    color: rgb(186, 184, 184);
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+}
+
+.nav-in-two-in a:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: .6s ease;
+}
+
+.nav-in-two-in :not(a:hover)
+{
+    transition: .6s ease-in-out;
+}
+
+.nav-in-three-in a:hover{
+    background-color: blue; 
+    transition: .5s ease;
+}
+
+.nav-in-three-in :not(a:hover){
+    background-color: black; 
+    transition: .5s ease;
+}
+.header{
+    
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header-one{
+     height: 20vh;
+     display: flex;
+     align-items: center;
+     font-size: 1rem;
+     border-bottom: 2px solid #8c9acf;
+     margin-top: 50px;
+}
+.header-two{
+     height:15vh ;
+     display: flex;
+     align-items: center;
+}
+.header-three{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header-three-in-one{
+    
+    margin-left: 2px;
+}
+.content{
+ 
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.content-one{
+    
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-two{
+    
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+
+.card{
+    height: 37vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #8c9acf;
+    
+    
+}
+select{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+.card-ex{
+    margin-bottom: 1.5rem;
+}
+.card:hover{
+    transform: scale(0.96);
+    z-index: 1;
+    transition: 1.8s;
+}
+.card:not(:hover){
+    transition: 1s ease-in-out;
+}
+.blogs#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+#deepak{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 90vh;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border:2px solid #8c9acf ;
+    border-radius: 15px;
+}
+
+#deepak.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+#kavya{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 90vh;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border:2px solid #8c9acf ;
+    border-radius: 15px;
+}
+#kavya.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+#sai{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 90vh;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border:2px solid #8c9acf ;
+    border-radius: 15px;
+}
+
+#sai.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+#dinesh{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 90vh;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border:2px solid #8c9acf ;
+    border-radius: 15px;
+}
+
+#dinesh.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+#yasaswini{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 90vh;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border:2px solid #8c9acf ;
+    border-radius: 15px;
+}
+
+#yasaswini.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+#saiSree{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 90vh;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    border:2px solid #8c9acf ;
+    border-radius: 15px;
+}
+
+#saiSree.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.subfooter{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid grey;
+    background-color: black;
+} 
+.footer-in{
+    height: 45vh;
+    width: 97%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.footer-section{
+    height: 40vh;
+    width: 24%;
+    color: white;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #8c9acf;
+}
+.footer-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.icons{
+    height: 5vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    width: 18%;
+    text-decoration: none;
+    color: black;
+}
