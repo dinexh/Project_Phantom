@@ -207,53 +207,73 @@ html{
 /* ------------------------------- Blogs ------------------------------ */
 
 .blogs{
-    height: 65vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
-    border-top: 1px solid white;    
-    border-bottom: 1px solid white;   
+    padding: 3rem 0rem;
 }
 .blogs-in{
-    height: 60vh;
-    width: 98%;
+    width: 95%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around   ;
+    justify-content: space-around;
+
 }
-.Blog-in h1{
+.blogs-in h1{
     font-size: 2rem;
-    font-weight: 470;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    /* padding: 0rem 0rem 2rem 0rem; */
+}
+.blogs-in p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
 }
 .blogs-in a{
     text-decoration: none;
 }
 .Blogs-box-in{
-    height: 4   5vh;
-    width: 99%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2rem 0rem;
 }
 .Blogs-box{
     padding: 2rem;
-    height: 40vh;
     width: 32%;
-    box-shadow: 1px 1px 1px 1px #8c9acf;
-    border-radius: 1rem;
+    /* box-shadow: 1px 1px 1px 1px #8c9acf; */
+    border: 2px solid grey;
+    /* border-radius: 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-size: medium;
+    min-height: 55vh;
+    /* background-color: rgb(25, 25, 25); */
 }
 .Blogs-box a{
     text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+.Blogs-box a h3{
+    color: lightgrey;
+    text-decoration: underline;
+    min-height: 15vh;
 
+}
+.Blogs-box p {
+    color: white;
+    min-height: 30vh;
+}
 
 
 
@@ -399,8 +419,6 @@ button{
     text-decoration: none;
     color: black;
 }
-
-/* ------------------------------- Domain ------------------------------ */
 
 /* ------------------------------- Domain ------------------------------ */
 
