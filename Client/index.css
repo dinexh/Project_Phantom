@@ -411,6 +411,7 @@ button{
     width: 100%;
     background-color: black;
     padding: 3rem 0rem;
+    padding-bottom: 20rem;
 }  
 .domain-in-one{
     width: 100%;
@@ -444,6 +445,8 @@ button{
     background-color: black;
     width: 24%;
     font-family: sans-serif;
+    padding: 7rem 0rem;
+    
 }
   
 .flip-card-inner {
@@ -468,21 +471,30 @@ button{
     backface-visibility: hidden;
     border: 1px solid white;
     padding: 0rem 1rem;
-    border: 2px solid red;
+   border: 2px solid red;
+  position: absolute;
+  max-height: 60vh;
+   
   }
   
   .flip-card-front {
-    background: black;
+    
     color: white;
+    padding: 2rem 0rem;
+    
+  }
+  .flip-card-front img{
+    height: 50vh;
   }
   
   .flip-card-back {
-    background: black;
+    
     color: white;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     gap: 40px;
+   padding: 5rem 0rem;
   }
 
 

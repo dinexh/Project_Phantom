@@ -107,14 +107,14 @@ body{
 }
 .header{
     
-    height: 40vh;
+   padding: 2rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 .header-one{
-     height: 20vh;
+    padding: 1.2rem 0rem;
      display: flex;
      align-items: center;
      font-size: 1rem;
@@ -122,12 +122,12 @@ body{
      margin-top: 50px;
 }
 .header-two{
-     height:15vh ;
+    padding: 1rem;
      display: flex;
      align-items: center;
 }
 .header-three{
-    height: 3vh;
+    
     width: 100%;
     display: flex;
 
@@ -141,7 +141,7 @@ body{
 }
 .content{
  
-  height: 90vh;
+  padding: 2rem 0rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -153,7 +153,7 @@ body{
     
     width: 100%;
     display: flex;
-    height: 50vh;
+    padding: 2rem 1rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -161,7 +161,7 @@ body{
     
     width: 100%;
     display: flex;
-    height: 50vh;
+    padding: 2rem 1rem;
     align-items: center;
     justify-content: space-around;
    
@@ -215,8 +215,8 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1000px;
-    height: 90vh;
-    padding: 40px;
+   
+    padding: 4rem 0rem;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
     background-color: black;
     color: white;
@@ -239,8 +239,8 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1000px;
-    height: 90vh;
-    padding: 40px;
+    
+    padding: 4rem 0rem;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
     background-color: black;
     color: white;
@@ -262,8 +262,8 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1000px;
-    height: 90vh;
-    padding: 40px;
+   
+    padding: 4rem 0rem;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
     background-color: black;
     color: white;
@@ -286,8 +286,8 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1000px;
-    height: 90vh;
-    padding: 40px;
+    
+    padding: 4rem 0rem;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
     background-color: black;
     color: white;
