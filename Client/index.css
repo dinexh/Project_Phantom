@@ -117,14 +117,24 @@ html{
     color: white;
     padding: 3rem 0rem;
 }
+.about-in-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
 .about-in-one span{
-    color: blue;
+    color: rgb(146, 146, 146);
     font-size: 2rem;
     font-weight: 700;
+
 }
 
 .about-in-one p{
     font-size: 2.5rem;
+    padding: 1rem 0rem;
 }
 .about-in{
     height: 60vh;
@@ -134,23 +144,16 @@ html{
     justify-content: space-evenly;
     align-items: center;
 }
-.about-in-one{
-    height: 64vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-}
+
 .about-in-one p{
     font-size: 0.9rem;
 }
 .about-in-one a{
     text-decoration: none;
-    color: blue;
+    color: white;
     padding: 0.4rem 0.7rem;
     border-radius: 5px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(52, 51, 51);
 }
 .about-in-two{
     height: 64vh;
@@ -169,6 +172,8 @@ html{
     justify-content: space-around;
     align-items: center;
     padding: 3rem 0rem;
+    background-color: rgb(22, 22, 22);
+    background-color: rgb(34, 34, 34);
 }
 .Count-Heading{
     width: 100%;
@@ -181,6 +186,7 @@ html{
 .Count-Heading h2 {
     font-size: 2rem;
     font-weight: 700;
+    color: rgb(146, 146, 146);
 }
 .Count-Heading p {
     font-size: 1rem;
@@ -193,6 +199,12 @@ html{
     align-items: center;
     text-align: center;
 } 
+.counter-item {
+    width: 24%;
+    padding: 2rem 1rem;
+    background-color: rgb(47, 47, 47);
+    border: 2px solid black;
+}
 .counter-item p {
     color: white;
     font-size: 1rem;
@@ -200,7 +212,7 @@ html{
 }
 .count{
     font-size: 6rem;
-    color:blue;
+    color:white;
 }
 
 
@@ -228,7 +240,7 @@ html{
     font-weight: 700;
     width: 100%;
     text-align: center;
-    /* padding: 0rem 0rem 2rem 0rem; */
+    color: rgb(146, 146, 146);
 }
 .blogs-in p {
     margin-top: 1.5rem;
@@ -246,29 +258,26 @@ html{
 .Blogs-box{
     padding: 2rem;
     width: 32%;
-    /* box-shadow: 1px 1px 1px 1px #8c9acf; */
-    border: 2px solid grey;
-    /* border-radius: 1rem; */
+    /* border: 1px solid grey; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     font-size: medium;
     min-height: 55vh;
-    /* background-color: rgb(25, 25, 25); */
+    border: 1px solid grey;
 }
-.Blogs-box a{
-    text-decoration: none;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.Blogs-box a h3{
-    color: lightgrey;
-    text-decoration: underline;
-    min-height: 15vh;
 
+.Blogs-box h3{
+    color: lightgrey;
+    min-height: 15vh;
+}
+.Blogs-box a {
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(52, 51, 51);
 }
 .Blogs-box p {
     color: white;
@@ -280,38 +289,62 @@ html{
 /* ------------------------------- Faqs ------------------------------ */
 
 .Faqs{
-    height: 60vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 3rem 0rem;
     background-color: black;
 }  
+.Faqs-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Faqs-heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+.Faqs-in {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
 .Faq-in-one{
-    height: 50vh;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    padding-left: 20px;
+    align-items: flex-start;
+}
+.Faq-in-one h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+
 }
 .faq-container {
-    height: 50vh;
     width: 100%;    
     padding: 0 20px;
     overflow: hidden;
 }
 
-details {
-    margin-bottom: 20px;
+.faq-container details {
+    transition: max-height 0.5s ease-out;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(47, 47, 47);
 } 
-summary {
+.faq-container summary {
     cursor: pointer;
     font-weight: bold;
-} 
+    transition: max-height 0.5s ease-out;
+}
+
 .Faq-in-two{
-    height: 50vh;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -325,45 +358,73 @@ summary {
 
 .Collab{
     color: white;
-    height: 50vh;
     width: 100%;
-    border-top: 1px solid white;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: black;
+    padding: 3rem 0rem;
 }
+.Collab-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Collab-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+
 .Collab-in{
-    height: 48vh;
     width: 95%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .Collab-in-one{
-    height: 48vh;
-    width: 47%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Collab-in-one img {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
 }
 .Collab-in-two{
-    height: 48vh;
-    width: 47%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
+.Collab-in-two p {
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
 .Collab-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
-    width: 20%;
-    border: 2px solid #8c9acf;
-    border-radius: 10px;
+    width: fit-content;
+    padding: 0.5rem 1rem;
     transition: all 0.3s;
     cursor: pointer;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(52, 51, 51);
 }
 .Collab-button a{
     text-decoration: none;
@@ -373,31 +434,49 @@ summary {
 /* ------------------------------- Footer ------------------------------ */
 
 footer{
-    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid grey;
     background-color: black;
+    border-top: 1px solid grey;
 } 
+
 .footer-in{
-    height: 45vh;
-    width: 97%;
+    width: 95%;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
+    padding: 1rem 0rem;
 }
+
 .footer-section{
-    height: 40vh;
-    width: 24%;
+    width: 25%;
     color: white;
 }
-.footer-section a{
-    text-decoration: none;
-    color: #8c9acf;
+
+.footer-section-one {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
+.footer-section-one img {
+
+}
+.footer-section-one p {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
 .footer-section
 {
     display: flex;
@@ -407,6 +486,44 @@ footer{
     text-align: center;
 }
 
+.footer-section-two, .footer-section-three, .footer-section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-section-one {
+    width: 40%;
+}
+.footer-section-two {
+    width: 15%;
+}
+.footer-section-three {
+    width: 15%;
+}
+.footer-section-four {
+    width: 30%;
+}
+
+.footer-section-two h3, .footer-section-three h3, .footer-section-four h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+
+.footer-section-two a, .footer-section-three a, .footer-section-four a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+.footer-section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .icons{
     height: 5vh;
     width: 50%;
@@ -414,103 +531,22 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-button{
-    width: 18%;
-    text-decoration: none;
-    color: black;
-}
-
-/* ------------------------------- Domain ------------------------------ */
-
-.Domain{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    background-color: black;
-    padding: 3rem 0rem;
-}  
-.domain-in-one{
-    width: 100%;
-    padding: 1rem 0rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-} 
-.domain-in-one h1{
-    font-weight: 700;
-    font-size: 2rem;
-}
-.domain-in-one p{
-    color: white;
-    font-size: 1rem;
-}
-
-
-.domain-in-two{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.Subsrcibe form input {
     width: 90%;
-    margin: auto;
-    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 0;
+    background-color: white;
+    border: 1px;
+    padding: 0.5rem;
+    color: black;
+    margin-top: 0.4rem;
 }
-
-.flip-card {
+.Subsrcibe form button{
     background-color: black;
-    width: 24%;
-    font-family: sans-serif;
+    border: 1px solid grey;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.4rem;
+    border-radius: 5px;
 }
-  
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-  
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-  
-.flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid white;
-    padding: 0rem 1rem;
-    border: 2px solid red;
-  }
-  
-  .flip-card-front {
-    background: black;
-    color: white;
-  }
-  
-  .flip-card-back {
-    background: black;
-    color: white;
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
 
 
-
-
-
-
-#email{
-    border-radius: 10px;
-}
-button{
-    border-radius: 10px;
-}
