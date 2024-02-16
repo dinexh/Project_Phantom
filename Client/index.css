@@ -108,6 +108,15 @@ html{
 }
 
 
+/* ------------------------------ Hero -------------------------------*/
+.Hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
 /* ------------------------------- About ------------------------------ */
 
 .about-section{
@@ -552,3 +561,5 @@ footer{
 }
 
 
+
+ 
