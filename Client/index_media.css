@@ -4,22 +4,34 @@
     }
 
     .Hero {
+        display: none;
         height: 50vh !important;
     }
     .Hero h1 {
         font-size: 2rem;
     }
 
-
+    /*About Section*/
     .about-section {
         background-color: blue;
-        overflow:visible;
+        width: 100%;
+    }
+    .about-in{
+        height: 70vh;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .about-in-one p {
-        color: red;
+        color: white;
         font-size: 0.7rem;
     }
-
+    .about-in-two{
+        display: none;
+    }
+/*Counter Section*/
     .counter {
         width: 100%;
     }
@@ -93,7 +105,7 @@
     align-items: center;
     width: 100%;
 }
-/*Blogs Section*/
+/*Blogs Section*/ 
 .Blogs-box-in{
     display: flex;
     flex-direction: column;
