@@ -114,7 +114,16 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background: url(Assets/HomeImage2.png)no-repeat;
+    background-size: cover;
+}
+.Hero h1{
+    text-align: center;
+    font-size: 8rem;
+    color: ;
+    letter-spacing: 2px;
+    text-shadow: 2px 7px 5px rgba(219, 214, 214, 0.3), 
+    0px -4px 10px rgba(21, 20, 20, 0.3);;
 }
 
 /* ------------------------------- About ------------------------------ */
