@@ -93,3 +93,24 @@
     align-items: center;
     width: 100%;
 }
+/*Blogs Section*/
+.Blogs-box-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.blogs-in h1{
+    font-size: 3rem;
+}
+.blogs-in p{
+    font-size: 1.3rem;
+}
+.Blogs-box{
+    width: 90%;
+    gap:10px;
+}
+/*Footer-section*/
+footer{
+    display: none;
+}
