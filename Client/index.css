@@ -9,15 +9,16 @@
     color: white;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 /* ------------------------------- Nav ------------------------------ */
 .nav {
     width: 100%;
     color: white;
     display: flex;
-    align-items: center; 
+    align-items: center;
     top: 0;
     position: fixed;
     /* background blur */
@@ -25,58 +26,70 @@ html{
     background-color: black;
     border-bottom: 1px solid rgb(49, 49, 49);
 }
+
 .nav-in {
     width: 95%;
     margin: auto;
     display: flex;
     padding: 0.5rem 0rem;
 }
+
 .nav-in-one {
     width: 20%;
 }
+
 .nav-in-one-in a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
 }
+
 .nav-in-one-in h1 {
     font-size: 1.3rem;
     color: white;
 }
+
 .nav-in-two {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .nav-in-two-in {
     width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.nav-in-one-in span{
+
+.nav-in-one-in span {
     color: blue;
 }
+
 .nav-in-two-in a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-weight: 400;
 }
-.nav-in-one-in span{
+
+.nav-in-one-in span {
     color: blue;
 }
+
 .nav-in-three {
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .nav-in-three-in {
     width: 90%;
     margin: auto;
 }
+
 .nav-in-three-in a {
     text-decoration: none;
     border-radius: 0.9rem;
@@ -85,28 +98,28 @@ html{
     padding: 0.3rem 0.7rem;
 }
 
-.nav-in-two-in a:hover{
+.nav-in-two-in a:hover {
     transform: scale(1.2);
     z-index: 1;
     transition: .6s ease;
 }
 
-.nav-in-two-in :not(a:hover)
-{
+.nav-in-two-in :not(a:hover) {
     transition: .6s ease-in-out;
 }
-   
 
-.nav-in-three-in a:hover{
-    background-color: blue; 
+
+.nav-in-three-in a:hover {
+    background-color: blue;
     transition: .5s ease;
 }
 
-.nav-in-three-in :not(a:hover){
-    background-color: black; 
+.nav-in-three-in :not(a:hover) {
+    background-color: black;
     transition: .5s ease;
 }
-.navtwo{
+
+.navtwo {
     display: none;
 }
 
@@ -119,7 +132,8 @@ html{
     background: url(Assets/HomeImage2.png)no-repeat;
     background-size: cover;
 }
-.Hero h1{
+
+.Hero h1 {
     text-align: center;
     font-size: 4rem;
     color: whitesmoke;
@@ -127,17 +141,18 @@ html{
 
 /* ------------------------------- About ------------------------------ */
 
-.about-section{
+.about-section {
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
     color: white;
     padding: 3rem 0rem;
-    border-top:1px solid grey;
+    border-top: 1px solid grey;
 }
-.about-in-one{
+
+.about-in-one {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -145,18 +160,19 @@ html{
     align-items: start;
 }
 
-.about-in-one span{
+.about-in-one span {
     color: rgb(146, 146, 146);
     font-size: 2rem;
     font-weight: 700;
 
 }
 
-.about-in-one p{
+.about-in-one p {
     font-size: 2.5rem;
     padding: 1rem 0rem;
 }
-.about-in{
+
+.about-in {
     width: 87%;
     border-radius: 20px;
     display: flex;
@@ -164,17 +180,19 @@ html{
     align-items: center;
 }
 
-.about-in-one p{
+.about-in-one p {
     font-size: 0.9rem;
 }
-.about-in-one a{
+
+.about-in-one a {
     text-decoration: none;
     color: white;
     padding: 0.4rem 0.7rem;
     border-radius: 5px;
     background-color: rgb(52, 51, 51);
 }
-.about-in-two{
+
+.about-in-two {
     height: 64vh;
     width: 47%;
 }
@@ -183,7 +201,7 @@ html{
 
 /* ------------------------------- Counter ------------------------------ */
 
-.counter{
+.counter {
     width: 100%;
     background-color: black;
     display: flex;
@@ -194,17 +212,19 @@ html{
     background-color: rgb(22, 22, 22);
     background-color: rgb(34, 34, 34);
 }
-.Count-Heading{
+
+.Count-Heading {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    border-top: 1px solid white;    
-    border-bottom: 1px solid white;   
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
-.blogs-in{
- height: 70vh;
+
+.blogs-in {
+    height: 70vh;
     width: 98%;
     display: flex;
     flex-direction: column;
@@ -212,42 +232,48 @@ html{
     justify-content: flex-start;
     padding-bottom: 3rem;
 }
+
 .Count-Heading h2 {
     font-size: 2rem;
     font-weight: 700;
     color: rgb(146, 146, 146);
 }
+
 .Count-Heading p {
     font-size: 1rem;
     margin-top: 1.5rem;
 }
+
 .counter-in {
     width: 95%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-} 
+}
+
 .counter-item {
     width: 24%;
     padding: 2rem 1rem;
     background-color: rgb(47, 47, 47);
     border: 2px solid black;
 }
+
 .counter-item p {
     color: white;
     font-size: 1rem;
     font-weight: 400;
 }
-.count{
+
+.count {
     font-size: 6rem;
-    color:white;
+    color: white;
 }
 
 
 /* ------------------------------- Blogs ------------------------------ */
 
-.blogs{
+.blogs {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -255,7 +281,8 @@ html{
     background-color: black;
     padding: 3rem 0rem;
 }
-.blogs-in{
+
+.blogs-in {
     width: 95%;
     margin: auto;
     display: flex;
@@ -264,28 +291,33 @@ html{
     justify-content: space-around;
 
 }
-.blogs-in h1{
+
+.blogs-in h1 {
     font-size: 2rem;
     font-weight: 700;
     width: 100%;
     text-align: center;
     color: rgb(146, 146, 146);
 }
+
 .blogs-in p {
     text-align: center;
     margin-top: 1.5rem;
     font-size: 1rem;
 }
-.blogs-in a{
+
+.blogs-in a {
     text-decoration: none;
 }
-.Blogs-box-in{
+
+.Blogs-box-in {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 2rem 0rem;
 }
-.Blogs-box{
+
+.Blogs-box {
     padding: 2rem;
     width: 32%;
     /* border: 1px solid grey; */
@@ -298,11 +330,12 @@ html{
     border: 1px solid grey;
 }
 
-.Blogs-box h3{
+.Blogs-box h3 {
     color: lightgrey;
     min-height: 15vh;
     font-size: 1.5rem;
 }
+
 .Blogs-box a {
     text-decoration: none;
     color: white;
@@ -310,6 +343,7 @@ html{
     border-radius: 5px;
     background-color: rgb(52, 51, 51);
 }
+
 .Blogs-box p {
     color: white;
     min-height: 30vh;
@@ -320,23 +354,26 @@ html{
 
 /* ------------------------------- Faqs ------------------------------ */
 
-.Faqs{
+.Faqs {
     width: 100%;
     padding: 3rem 0rem;
     background-color: black;
-    border-top:1px solid grey;
-}  
+    border-top: 1px solid grey;
+}
+
 .Faqs-heading {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .Faqs-heading h2 {
     font-size: 2rem;
     font-weight: 700;
     color: rgb(146, 146, 146);
 }
+
 .Faqs-in {
     display: flex;
     justify-content: space-around;
@@ -345,21 +382,24 @@ html{
     margin: auto;
     padding: 2rem 0rem;
 }
-.Faq-in-one{
+
+.Faq-in-one {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
 }
+
 .Faq-in-one h2 {
     font-size: 2rem;
     font-weight: 700;
     color: rgb(146, 146, 146);
 
 }
+
 .faq-container {
-    width: 100%;    
+    width: 100%;
     padding: 0 20px;
     overflow: hidden;
 }
@@ -370,21 +410,23 @@ html{
     padding: 10px;
     margin-bottom: 5px;
     background-color: rgb(47, 47, 47);
-} 
+}
+
 .faq-container summary {
     cursor: pointer;
     font-weight: bold;
     transition: max-height 0.5s ease-out;
 }
 
-.Faq-in-two{
+.Faq-in-two {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-}  
-.Faqs-in{
+}
+
+.Faqs-in {
     height: 57vh;
     width: 98%;
 }
@@ -394,7 +436,7 @@ html{
 
 /* ------------------------------- Collab ------------------------------ */
 
-.Collab{
+.Collab {
     color: white;
     width: 100%;
     display: flex;
@@ -403,8 +445,9 @@ html{
     align-items: center;
     background-color: black;
     padding: 3rem 0rem;
-    border-top:1px solid grey;
+    border-top: 1px solid grey;
 }
+
 .Collab-header {
     width: 100%;
     display: flex;
@@ -412,13 +455,14 @@ html{
     align-items: center;
     justify-content: center;
 }
+
 .Collab-header h1 {
     font-size: 2rem;
     font-weight: 700;
     color: rgb(146, 146, 146);
 }
 
-.Collab-in{
+.Collab-in {
     width: 95%;
     margin: auto;
     display: flex;
@@ -426,31 +470,35 @@ html{
     align-items: center;
 }
 
-.Collab-in-one{
+.Collab-in-one {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .Collab-in-one img {
     width: 90%;
     height: 100%;
     border-radius: 10px;
 }
-.Collab-in-two{
+
+.Collab-in-two {
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .Collab-in-two p {
     font-size: 1rem;
     text-align: center;
     width: 80%;
     margin: auto;
 }
-.Collab-button{
+
+.Collab-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -465,14 +513,15 @@ html{
     border-radius: 5px;
     background-color: rgb(52, 51, 51);
 }
-.Collab-button a{
+
+.Collab-button a {
     text-decoration: none;
 }
 
 
 /* ------------------------------- Footer ------------------------------ */
 
-footer{
+footer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -480,18 +529,18 @@ footer{
     align-items: center;
     background-color: black;
     border-top: 1px solid grey;
-} 
+}
 
-.footer-in{
+.footer-in {
     width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    align-items: center; 
+    align-items: center;
     padding: 1rem 0rem;
 }
 
-.footer-section{
+.footer-section {
     width: 25%;
     color: white;
 }
@@ -504,9 +553,9 @@ footer{
     align-items: flex-start;
 
 }
-.footer-section-one img {
 
-}
+.footer-section-one img {}
+
 .footer-section-one p {
     text-decoration: none;
     color: white;
@@ -516,46 +565,56 @@ footer{
     text-align: left;
 }
 
-.footer-section
-{
+.footer-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
     text-align: center;
 }
 
-.footer-section-two, .footer-section-three, .footer-section-four {
+.footer-section-two,
+.footer-section-three,
+.footer-section-four {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .footer-section-one {
     width: 40%;
 }
+
 .footer-section-two {
     width: 15%;
 }
+
 .footer-section-three {
     width: 15%;
 }
+
 .footer-section-four {
     width: 30%;
 }
 
-.footer-section-two h3, .footer-section-three h3, .footer-section-four h3 {
+.footer-section-two h3,
+.footer-section-three h3,
+.footer-section-four h3 {
     font-size: 1.2rem;
     font-weight: 700;
     color: rgb(146, 146, 146);
 }
 
-.footer-section-two a, .footer-section-three a, .footer-section-four a {
+.footer-section-two a,
+.footer-section-three a,
+.footer-section-four a {
     text-decoration: none;
     color: white;
     border-radius: 5px;
     font-size: .8rem;
 }
+
 .footer-section-four {
     display: flex;
     flex-direction: column;
@@ -563,13 +622,14 @@ footer{
     align-items: flex-start;
 }
 
-.icons{
+.icons {
     height: 5vh;
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .Subsrcibe form input {
     width: 90%;
     border: 1px solid grey;
@@ -580,14 +640,11 @@ footer{
     color: black;
     margin-top: 0.4rem;
 }
-.Subsrcibe form button{
+
+.Subsrcibe form button {
     background-color: black;
     border: 1px solid grey;
     padding: 0.2rem 0.4rem;
     margin-top: 0.4rem;
     border-radius: 5px;
 }
-
-
-
- 
