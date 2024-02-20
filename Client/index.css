@@ -106,7 +106,24 @@ html{
     background-color: black; 
     transition: .5s ease;
 }
+.navtwo{
+    display: none;
+}
 
+/* ------------------------------ Hero -------------------------------*/
+.Hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(Assets/HomeImage2.png)no-repeat;
+    background-size: cover;
+}
+.Hero h1{
+    text-align: center;
+    font-size: 4rem;
+    color: whitesmoke;
+}
 
 /* ------------------------------- About ------------------------------ */
 
@@ -118,6 +135,7 @@ html{
     background-color: black;
     color: white;
     padding: 3rem 0rem;
+<<<<<<< HEAD
 }
 .about-in-one{
     width: 50%;
@@ -146,6 +164,36 @@ html{
     justify-content: space-evenly;
     align-items: center;
 }
+=======
+    border-top:1px solid grey;
+}
+.about-in-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.about-in-one span{
+    color: rgb(146, 146, 146);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.about-in-one p{
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+.about-in{
+    width: 87%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
 
 .about-in-one p{
     font-size: 0.9rem;
@@ -245,6 +293,10 @@ html{
     color: rgb(146, 146, 146);
 }
 .blogs-in p {
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
     margin-top: 1.5rem;
     font-size: 1rem;
 }
@@ -273,6 +325,10 @@ html{
 .Blogs-box h3{
     color: lightgrey;
     min-height: 15vh;
+<<<<<<< HEAD
+=======
+    font-size: 1.5rem;
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
 }
 .Blogs-box a {
     text-decoration: none;
@@ -284,6 +340,10 @@ html{
 .Blogs-box p {
     color: white;
     min-height: 30vh;
+<<<<<<< HEAD
+=======
+    text-align: start;
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
 }
 
 
@@ -291,12 +351,22 @@ html{
 /* ------------------------------- Faqs ------------------------------ */
 
 .Faqs{
+<<<<<<< HEAD
     width: 100%;
     padding: 3rem 0rem;
     background-color: black;
 }  
 .Faqs-heading {
     width: 100%;
+=======
+    width: 100%;
+    padding: 3rem 0rem;
+    background-color: black;
+    border-top:1px solid grey;
+}  
+.Faqs-heading {
+    width: 100%;
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
     display: flex;
     align-items: center;
     justify-content: center;
@@ -367,6 +437,10 @@ html{
     align-items: center;
     background-color: black;
     padding: 3rem 0rem;
+<<<<<<< HEAD
+=======
+    border-top:1px solid grey;
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
 }
 .Collab-header {
     width: 100%;
@@ -534,6 +608,7 @@ footer{
     align-items: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 button{
     width: 18%;
     text-decoration: none;
@@ -579,6 +654,9 @@ button{
 =======
 .Subsrcibe form input {
 >>>>>>> 22a0a0dcf44d4a3817267c08b708e2d338e66982
+=======
+.Subsrcibe form input {
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
     width: 90%;
     border: 1px solid grey;
     border-radius: 0;
@@ -590,6 +668,7 @@ button{
 }
 .Subsrcibe form button{
     background-color: black;
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 24%;
     font-family: sans-serif;
@@ -653,3 +732,14 @@ button{
 >>>>>>> 22a0a0dcf44d4a3817267c08b708e2d338e66982
 
 
+=======
+    border: 1px solid grey;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.4rem;
+    border-radius: 5px;
+}
+
+
+
+ 
+>>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
