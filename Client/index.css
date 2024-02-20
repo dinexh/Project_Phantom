@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap"); */
 
 * {
     margin: 0;
@@ -7,17 +8,14 @@
     font-family: poppins;
     color: white;
 }
+
 html{
     scroll-behavior: smooth;
 }
-
-.HomePage{
-    height: 100vh;
-    width: 100%;
-}
+/* ------------------------------- Nav ------------------------------ */
 .nav {
-    width: 100%;
     background-color: black;
+    width: 100%;
     color: white;
     display: flex;
     align-items: center;
@@ -36,9 +34,10 @@ html{
 .nav-in-one-in a {
     text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
 .nav-in-one-in h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
 }
 .nav-in-two {
@@ -56,8 +55,12 @@ html{
 .nav-in-two-in a {
     text-decoration: none;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
+}
+
+.nav-in-one-in span{
+    color: blue;
 }
 .nav-in-three {
     width: 20%;
@@ -87,6 +90,7 @@ html{
 {
     transition: .6s ease-in-out;
 }
+   
 
 .nav-in-three-in a:hover{
     background-color: blue; 
@@ -97,278 +101,445 @@ html{
     background-color: black; 
     transition: .5s ease;
 }
-.heropage{
-    height: 80vh;
-    width: 100%;
-    background-color: black;
+
+.navtwo{
+    display: none;
 }
-.dive_section{
-    border-top: 1px ;
-    height: 11.2vh;
-    width: 100%;
+
+/* ------------------------------ Hero -------------------------------*/
+.Hero {
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.dive_in{
-    display: flex;
-    justify-content: center;
+
     align-items: center;
-}
-.dive-in-button h4{
-    color: white;
-}
-.dive-in-button{
-    background-color: black;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    border: 3px solid red;
-    border-radius: 45px;
-    transition: all 0.3s;
-    cursor: pointer;
+    background: url(Assets/HomeImage2.png)no-repeat;
+    background-size: cover;
 }
-.dive-in-button:hover{
-    background: red;
-    color: white;
-    font-size: 1.5em;
+.Hero h1{
+    text-align: center;
+    font-size: 4rem;
+    color: whitesmoke;
 
 }
-.NumberSection{
-    height: 60vh;
-    width: 100%;
-    background-color: black;
-    border-top: 2px solid grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}   
-.NumberSection-in{
-    height: 55vh;
-    width: 98%;
-}
-.NumberSection-one{
-    height: 9vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.NumberSection-two{
-    height: 46vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.box{
-    height: 20vh;
-    width: 30%;
-}
-.Countbox{
-    height: 40vh;
-    width: 35%;
-    background-color: grey;
-}
+
+/* ------------------------------- About ------------------------------ */
+
 .about-section{
-    height: 65vh;
     width: 100%;
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
     color: white;
-}
-.about-in{
-    height: 60vh;
-    width: 87%;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 3rem 0rem;
+    border-top:1px solid grey;
+
 }
 .about-in-one{
-    height: 64vh;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
 }
-.about-in-one h1{
+
+.about-in-one span{
+    color: rgb(146, 146, 146);
     font-size: 2rem;
+    font-weight: 700;
+
 }
+
+.about-in-one p{
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+.about-in{
+    width: 87%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .about-in-one p{
     font-size: 0.9rem;
 }
 .about-in-one a{
-    text-decoration: white;
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(52, 51, 51);
 }
 .about-in-two{
     height: 64vh;
     width: 47%;
 }
-.Domain{  
-    height: 85vh;
+
+/* ------------------------------- Counter ------------------------------ */
+
+.counter{
     width: 100%;
     background-color: black;
-    border-top: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0rem;
+    background-color: rgb(22, 22, 22);
+    background-color: rgb(34, 34, 34);
 }
-.Domain-in-one span{
-    color: orange ;
-}
-.Domain-in-one{
-    height: 12vh;
+.Count-Heading{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-}
-.Domain-in-two{
-    height: 73vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 3rem;
 }
-.Domain-in-two-in{
-    height: 73vh;
+.Count-Heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+.Count-Heading p {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.counter-in {
     width: 95%;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.box{
-    height: 73vh;
-    width: 31%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.faqs{
-    border-top: 2px solid white;
-    height: 60vh;
-    width: 100%;
-    background-color: black; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.faqs-in{
-    height: 55vh;
-    width: 95%;
-}
-.Collab{
-    color: white;
-    height: 50vh;
-    width: 100%;
-    background-color: black;
-    border-top: 2px solid white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+} 
+.counter-item {
+    width: 24%;
+    padding: 2rem 1rem;
+    background-color: rgb(47, 47, 47);
+    border: 2px solid black;
 }
-.Collab-in{
-    height: 48vh;
+.counter-item p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.count{
+    font-size: 6rem;
+    color:white;
+}
+
+
+/* ------------------------------- Blogs ------------------------------ */
+
+.blogs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 3rem 0rem;
+}
+.blogs-in{
     width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.blogs-in h1{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    color: rgb(146, 146, 146);
+}
+.blogs-in p {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.blogs-in a{
+    text-decoration: none;
+}
+.Blogs-box-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+.Blogs-box{
+    padding: 2rem;
+    width: 32%;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: medium;
+    min-height: 55vh;
+    border: 1px solid grey;
+}
+
+.Blogs-box h3{
+    color: lightgrey;
+    min-height: 15vh;
+    font-size: 1.5rem;
+}
+.Blogs-box a {
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(52, 51, 51);
+}
+.Blogs-box p {
+    color: white;
+    min-height: 30vh;
+    text-align: start;
+}
+
+
+
+/* ------------------------------- Faqs ------------------------------ */
+
+.Faqs{
+    width: 100%;
+    padding: 3rem 0rem;
+    background-color: black;
+    border-top:1px solid grey;
+}  
+.Faqs-heading {
+    width: 100%;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Faqs-heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+.Faqs-in {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+.Faq-in-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.Faq-in-one h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+
+}
+.faq-container {
+    width: 100%;    
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.faq-container details {
+    transition: max-height 0.5s ease-out;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(47, 47, 47);
+} 
+.faq-container summary {
+    cursor: pointer;
+    font-weight: bold;
+    transition: max-height 0.5s ease-out;
+}
+
+.Faq-in-two{
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Collab-in-one{
-    height: 48vh;
-    width: 47%;
+
+
+
+
+/* ------------------------------- Collab ------------------------------ */
+
+.Collab{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 3rem 0rem;
+    border-top:1px solid grey;
+}
+.Collab-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Collab-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+
+.Collab-in{
+    width: 95%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Collab-in-one{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Collab-in-one img {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
 }
 .Collab-in-two{
-    height: 48vh;
-    width: 47%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+.Collab-in-two p {
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 .Collab-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
-    height: 8vh;
-    width: 20%;
-    background-color: black;
-    border: 2px solid blue;
-    border-radius: 10px;
+    width: fit-content;
+    padding: 0.5rem 1rem;
     transition: all 0.3s;
     cursor: pointer;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgb(52, 51, 51);
 }
-.Collab-button:hover{
-    transition: 3ms;
-    background-color: blue;
-    font-size:  x-large;
+.Collab-button a{
+    text-decoration: none;
 }
+
+
+/* ------------------------------- Footer ------------------------------ */
+
 footer{
-    height: 55vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px black;
-    border-top: 2px solid grey;
     background-color: black;
-    border-bottom: 2px solid grey;
-}
-.footer-one{
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid grey;
-}
-.footer-in-one{
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer-in-two{
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    border-top: 1px solid grey;
+} 
+
 .footer-in{
-    height: 50vh;
-    width: 97%;
-    background-color: black;
+    width: 95%;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; 
+    padding: 1rem 0rem;
 }
+
 .footer-section{
-    height: 40vh;
-    width: 24%;
+    width: 25%;
     color: white;
 }
-.footer-section a{
-    text-decoration: none;
-    color: orange;
+.footer-section-one {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
+.footer-section-one p {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
 .footer-section
 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;    
+    text-align: center;
+}
+
+.footer-section-two, .footer-section-three, .footer-section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-section-one {
+    width: 40%;
+}
+.footer-section-two {
+    width: 15%;
+}
+.footer-section-three {
+    width: 15%;
+}
+.footer-section-four {
+    width: 30%;
+}
+
+.footer-section-two h3, .footer-section-three h3, .footer-section-four h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+}
+
+.footer-section-two a, .footer-section-three a, .footer-section-four a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+.footer-section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .icons{
     height: 5vh;
@@ -377,3 +548,21 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+.Subsrcibe form input {
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 0;
+    background-color: white;
+    border: 1px;
+    padding: 0.5rem;
+    color: black;
+    margin-top: 0.4rem;
+}
+.Subsrcibe form button{
+    background-color: black;
+    border: 1px solid grey;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.4rem;
+    border-radius: 5px;
+}
+
