@@ -128,15 +128,28 @@
 }
 /*Footer-section*/
 footer{
-    height: 50vh;
-    width: 100%;
-    background-color: red;   
+    background-color: black;
 }
 .footer-in{
+    height: 90vh;
+    width: 100%;
+    flex-direction: column;
+}
+.footer-section{
+    height: 90vh;
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-
+.footer-section p{
+    font-size: 1.2rem;
+    text-align: center;
 }
-
+.footer-section.footer-section-two a{
+    font-size: 1.2rem;
+}
+.footer-section.footer-section-three a{
+    font-size: 1.2rem;
+}
+}

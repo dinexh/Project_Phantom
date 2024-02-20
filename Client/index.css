@@ -489,9 +489,6 @@ footer{
     align-items: flex-start;
 
 }
-.footer-section-one img {
-
-}
 .footer-section-one p {
     text-decoration: none;
     color: white;
@@ -572,6 +569,10 @@ footer{
     margin-top: 0.4rem;
     border-radius: 5px;
 }
+.footertwo{
+    display: none;
+}
+/*Footer for Moblie View*/
 
 
 
