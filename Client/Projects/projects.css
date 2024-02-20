@@ -102,10 +102,7 @@
 }
 .cap{
     height: 30vh;
-
     width: 100%;
-    padding-top: 7rem;
-    padding-bottom: 3rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -125,6 +122,7 @@
     margin-bottom: 20px;
 }
 .container-in-two{
+
     width: 80%;
     color: white;
     margin: auto;
@@ -136,29 +134,25 @@
     margin: 10px;
 }
 .one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+    border: 1px solid;
+    border-color: radial(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);
     overflow: hidden;
+    margin: 10px;
     text-align: left;
-    height: 17rem;
-    border: 2px solid #8c9acf;
-  margin-top: 10px;
-   border-radius: 0.4rem;
 }
 h1,h2{
   font-size: 1rem;
   font-weight: bolder;
 }
-img{
-    border-bottom: 2px solid #8c9acf; 
-}
-.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8,.text9{
-    padding: 10px;
+h4{
+    font-weight: lighter;
 }
 .one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover{
-    border: 2px solid #8c9acf ;
-    transform: scale(0.9); 
-  box-shadow: #88a0fd 0px -65px 36px -28px inset;
-  transition: transform 0.5s ease, box-shadow 1.2s ease;
-    z-index: 1;  
+    border: 1px solid;
+    box-shadow: rgba(250, 249, 249, 0.56) 0px 22px 70px 4px;
+    transform: scale(0.9);
+    z-index: 1;
+    transition: .3s ease;
 }
 .y{
     padding-left: 10px;
@@ -312,5 +306,4 @@ footer{
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-  }
-
+}
