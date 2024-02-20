@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
-
-=======
 *{
   padding: 0;
   margin: 0;
@@ -12,7 +8,6 @@ header{
   height: 9vh;
   width: 100%;
 }
->>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
 .main {
   height: 90vh;
   width: 100%;
@@ -109,86 +104,7 @@ margin-top: 20px;
 .card{
   margin-top: 20px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1000px) {
-  .main-in-one {
-    padding: 2rem 1rem;
-  }
-  
-  .main-in-one-para {
-    margin: 9px 20px;
-  }
-
-  .card {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .card-one,
-  .card-two,
-  .card-three,
-  .card-four {
-    width: 80%;
-  }
-
-  #text-card {
-    margin-top: 10px;
-  }
-
- 
-=======
-footer{
-  margin-top: 10px;
-  height: 50vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-top: 2px solid grey;
-  background-color: black;
-} 
-.footer-in{
-  height: 45vh;
-  width: 97%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center; 
-}
-.footer-section{
-  height: 40vh;
-  width: 24%;
-  color: white;
-}
-.footer-section a{
-  text-decoration: none;
-  color: #8c9acf;
-}
-.footer-section
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-}
-
-.icons{
-  height: 5vh;
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-button{
-  width: 18%;
-  text-decoration: none;
-  color: black;
-}
->>>>>>> f73b771a0036ce239a3343beaf8f0e50a185494f
-
-
-  .main-in-four {
+ .main-in-four {
     margin-top: 20px;
   }
 
@@ -196,7 +112,7 @@ button{
     margin-top: 10px;
   }
 
-}
+
 
 
 .main{
