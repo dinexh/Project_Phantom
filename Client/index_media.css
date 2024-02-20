@@ -1,0 +1,142 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+    .navtwo{
+        height: 10vh;
+        width: 100%;
+    }
+    /*hero*/
+    .Hero {
+        height: 50vh;
+        width: 100%;
+        background: url(Assets/HomeImage2.png) no-repeat;
+        background-size: cover;
+    }
+    .Hero h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /*About Section*/
+    .about-section {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-in-one{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-in-one p {
+        color: white;
+        font-size: 1.rem;
+    }
+    .about-in-two{
+        display: none;
+    }
+/*Counter Section*/
+    .counter {
+        width: 100%;
+    }
+
+    .Count-Heading {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .Count-Heading h2 {
+        text-align: center;
+    }
+    .Count-Heading p {
+        text-align: center;
+    }
+    .counter-in {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    .counter-item {
+        width: 45%;
+    }
+    /*collab section*/
+.Collab-in-one{
+    display: none;
+}
+.Collab-in-two p{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.Collab-button{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/*Faq-section*/
+.Faqs{
+    padding: 3rem;
+}
+.Faqs-in{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Faq-in-two{
+    display: none;
+}
+.faq-container summary{
+    padding: 1rem ;
+    font-size: 1.2rem;
+    padding-right:3rem;
+}
+.faq-container p{
+    font-size: 1.2rem;
+}
+.Faq-in-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/*Blogs Section*/ 
+.Blogs-box-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items:center;
+}
+.blogs-in h1{
+    font-size: 3rem;
+}
+.blogs-in p{
+    font-size: 1.rem;
+}
+.Blogs-box{
+    width: 90%;
+}
+/*Footer-section*/
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: red;   
+}
+.footer-in{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+}
+
