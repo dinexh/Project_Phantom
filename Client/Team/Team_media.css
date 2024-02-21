@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px) {
+  .main-in-one {
+    padding: 2rem 1rem;
+  }
+  
+  .main-in-one-para {
+    margin: 9px 20px;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card-one,
+  .card-two,
+  .card-three,
+  .card-four {
+    width: 80%;
+  }
+
+  #text-card {
+    margin-top: 10px;
+  }
+
+ 
+
+
+  .main-in-four {
+    margin-top: 20px;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+
+}
+
