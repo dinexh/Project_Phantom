@@ -209,23 +209,11 @@ html {
 .Count-Heading {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    margin-bottom: 3rem;
 }
-
-.blogs-in {
-    height: 70vh;
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-bottom: 3rem;
-}
-
 .Count-Heading h2 {
     font-size: 2rem;
     font-weight: 700;
@@ -234,7 +222,7 @@ html {
 
 .Count-Heading p {
     font-size: 1rem;
-    margin-top: 1.5rem;
+    margi 
 }
 
 .counter-in {
@@ -448,6 +436,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .Collab-header h1 {
