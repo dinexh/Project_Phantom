@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+    color:white;
+}
+.nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center; 
+    top: 0;
+    position: fixed;
+    /* background blur */
+    backdrop-filter: blur(10px);
+    background-color: black;
+    border-bottom: 1px solid rgb(49, 49, 49);
+}
+.nav-in {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 0.5rem 0rem;
+}
+.nav-in-one {
+    width: 20%;
+}
+.nav-in-one-in a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.nav-in-one-in h1 {
+    font-size: 1.3rem;
+    color: white;
+}
+.nav-in-two {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-in-two-in {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-in-one-in span{
+    color: blue;
+}
+.nav-in-two-in a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav-in-one-in span{
+    color: blue;
+}
+.nav-in-three {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-in-three-in {
+    width: 90%;
+    margin: auto;
+}
+.nav-in-three-in a {
+    text-decoration: none;
+    border-radius: 0.9rem;
+    color: rgb(186, 184, 184);
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+}
+
+.nav-in-two-in a:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: .6s ease;
+}
+
+.nav-in-two-in :not(a:hover)
+{
+    transition: .6s ease-in-out;
+}
+   
+
+.nav-in-three-in a:hover{
+    background-color: blue; 
+    transition: .5s ease;
+}
+
+.nav-in-three-in :not(a:hover){
+    background-color: black; 
+    transition: .5s ease;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.Homesection-in{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Homesection-in h1{
+    font-size: 2rem;
+    font-weight: 600;
+} 
+.Homesection-in p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-bottom: 2px solid grey;
+    margin-top: 10px;
+}
+.card-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-section-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+    width: 100%;
+
+  }
+  
+  .card {
+    border: 2px solid grey;
+    position: relative;
+    width: 20%;
+    height: 60vh;
+    overflow: hidden;
+    transition: filter 0.5s;
+    border-radius: 10px;
+  }   
+  .card:hover {
+    filter: blur(0);    
+  }
+  
+  .container:hover .card:not(:hover) {
+    filter: blur(1px); 
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+  }
+  .card img{
+    width: 100%;
+    object-fit: contain;
+  }
