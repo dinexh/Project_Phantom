@@ -14,16 +14,13 @@ html{
 }
 /* ------------------------------- Nav ------------------------------ */
 .nav {
+    background-color: black;
     width: 100%;
     color: white;
     display: flex;
-    align-items: center; 
-    top: 0;
-    position: fixed;
-    /* background blur */
-    backdrop-filter: blur(10px);
-    background-color: black;
-    border-bottom: 1px solid rgb(49, 49, 49);
+    align-items: center;
+    top:0;
+    position: sticky;
 }
 .nav-in {
     width: 95%;
@@ -55,15 +52,13 @@ html{
     display: flex;
     justify-content: space-between;
 }
-.nav-in-one-in span{
-    color: blue;
-}
 .nav-in-two-in a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-weight: 400;
 }
+
 .nav-in-one-in span{
     color: blue;
 }
@@ -106,6 +101,7 @@ html{
     background-color: black; 
     transition: .5s ease;
 }
+
 .navtwo{
     display: none;
 }
@@ -114,6 +110,7 @@ html{
 .Hero {
     height: 100vh;
     display: flex;
+
     align-items: center;
     justify-content: center;
     background: url(Assets/HomeImage2.png)no-repeat;
@@ -123,6 +120,7 @@ html{
     text-align: center;
     font-size: 4rem;
     color: whitesmoke;
+
 }
 
 /* ------------------------------- About ------------------------------ */
@@ -136,6 +134,7 @@ html{
     color: white;
     padding: 3rem 0rem;
     border-top:1px solid grey;
+
 }
 .about-in-one{
     width: 50%;
@@ -178,8 +177,6 @@ html{
     height: 64vh;
     width: 47%;
 }
-
-
 
 /* ------------------------------- Counter ------------------------------ */
 
@@ -318,6 +315,7 @@ html{
 }  
 .Faqs-heading {
     width: 100%;
+    background-color: black; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -480,7 +478,6 @@ footer{
     width: 25%;
     color: white;
 }
-
 .footer-section-one {
     /* background-color: yellow; */
     display: flex;
@@ -544,7 +541,6 @@ footer{
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 .icons{
     height: 5vh;
     width: 50%;
@@ -574,6 +570,3 @@ footer{
 }
 /*Footer for Moblie View*/
 
-
-
- 
