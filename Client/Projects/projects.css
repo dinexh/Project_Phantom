@@ -251,6 +251,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 2rem;
 }
 .Subsrcibe form input {
     width: 90%;
