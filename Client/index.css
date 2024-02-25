@@ -222,10 +222,9 @@ html {
 
 .Count-Heading p {
     font-size: 1rem;
-    margi 
 }
 
-.counter-in {
+.counter-in{
     width: 95%;
     display: flex;
     justify-content: space-around;
