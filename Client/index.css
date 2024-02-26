@@ -634,5 +634,9 @@ footer {
 .footertwo{
     display: none;
 }
-/*Footer for Moblie View*/
+.container{
+width: 100%;}
+.container-in{
 
+width: fit-content;
+}
