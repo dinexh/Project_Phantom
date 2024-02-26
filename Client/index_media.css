@@ -31,9 +31,8 @@
     }
     /*hero*/
     .Hero {
-        height: 50vh;
         width: 100%;
-        background: url(Assets/HomeImage2.png) no-repeat;
+        /*background: url(Assets/HomeImage2.png) no-repeat; */
         background-size: cover;
     }
     .Hero h1 {
@@ -43,7 +42,6 @@
 
     /*About Section*/
     .about-section {
-        height: 70vh;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -100,7 +98,6 @@
 
 /*Faq-section*/
 .Faq{
-    height: 80vh;
     width: 100%;
 }
 .Faqs-heading{
@@ -139,12 +136,11 @@ footer{
     background-color: black;
 }
 .footer-in{
-    height: 90vh;
     width: 100%;
     flex-direction: column;
 }
 .footer-section{
-    height: 90vh;
+
     width: 100%;
     display: flex;
     justify-content: center;

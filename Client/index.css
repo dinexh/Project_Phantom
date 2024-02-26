@@ -8,10 +8,12 @@
     font-family: poppins;
     color: white;
 }
-
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
+
+
 
 /* ------------------------------- Nav ------------------------------ */
     .nav {
@@ -119,10 +121,9 @@ html {
 .Hero {
     height: 100vh;
     display: flex;
-
     align-items: center;
+    background: url(Assets/Phantom.png);
     justify-content: center;
-    background: url(Assets/HomeImage2.png)no-repeat;
     background-size: cover;
 }
 
@@ -362,6 +363,10 @@ html {
     width: 95%;
     margin: auto;
     padding: 2rem 0rem;
+}
+
+.faq-img{
+    height:20vh;
 }
 
 .Faq-in-one {
