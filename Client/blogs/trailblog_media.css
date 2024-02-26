@@ -1,0 +1,20 @@
+@media screen and (max-width: 1000px){
+  
+
+    .content-one{
+        gap: 1.5rem;
+   flex-direction: column;
+    }
+    .content-two{
+        gap: 1.5rem;
+
+        flex-direction: column;
+        
+    }
+    .card{
+        width: 90%;
+        gap: 1.5rem;
+        justify-content:center;
+    }
+
+}
