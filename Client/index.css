@@ -122,7 +122,7 @@ html {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Assets/Phantom.png);
+    background: url(Assets/HomeImage2.png);
     justify-content: center;
     background-size: cover;
 }
@@ -633,10 +633,4 @@ footer {
 }
 .footertwo{
     display: none;
-}
-.container{
-width: 100%;}
-.container-in{
-
-width: fit-content;
 }
