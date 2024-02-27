@@ -272,9 +272,6 @@ footer{
 }
 
 @media only screen and (max-width: 1000px) {
-    body {
-      background-color: lightblue;
-    }
     .cap{
         height: 10vh;
         width: 100%;
@@ -285,6 +282,8 @@ footer{
         justify-content: center;
         background-color:rgba(250, 249, 249, 0.56) 0px 22px 70px 4px;
         text-decoration-color: gray;
+        margin-top: 6rem;
+    
         
       }
       .caps{
