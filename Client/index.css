@@ -364,6 +364,16 @@ html {
     margin: auto;
     padding: 2rem 0rem;
 }
+
+.faq-img{
+    height:100%;
+    object-fit: cover;
+    width: 100%;
+}
+.Faq-in-two {
+    width: 100%;
+    /* border: 2px  solid white; */
+}
 .Faq-in-one {
     width: 50%;
     display: flex;
