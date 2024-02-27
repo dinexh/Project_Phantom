@@ -19,7 +19,7 @@ body{
     position: fixed;
 }
 .header-one h1{
-    font-weight: 470;
+    font-weight: bold;
     font-size: 2rem;
 }
 .header-two p{
@@ -106,7 +106,6 @@ body{
     transition: .5s ease;
 }
 .header{
-    
     padding: 1rem 0rem;
     display: flex;
     flex-direction: column;
@@ -115,16 +114,15 @@ body{
     
 }
 .header-one{
-     padding: 0rem 0rem;
      display: flex;
      align-items: center;
      font-size: 1rem;
-     border-bottom: 2px solid #8c9acf;
+     /* border-bottom: 2px solid #8c9acf; */
      margin-top: 50px;
      justify-content: center;
 }
 .header-two{
-     padding: 1rem 0rem;
+     /* padding: 1rem 0rem; */
      display: flex;
      align-items: center;
 }
@@ -133,16 +131,13 @@ body{
     font-size: 1rem;
 }
 .header-three{
-    
     width: 100%;
     display: flex;
-
     align-items: center;
     justify-content: space-around;
     
 }
 .header-three-in-one{
-    
     margin-left: 2px;
 }
 .content{

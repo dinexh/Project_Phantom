@@ -364,11 +364,6 @@ html {
     margin: auto;
     padding: 2rem 0rem;
 }
-
-.faq-img{
-    height:20vh;
-}
-
 .Faq-in-one {
     width: 50%;
     display: flex;
@@ -405,7 +400,7 @@ html {
 }
 
 .Faq-in-two {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
