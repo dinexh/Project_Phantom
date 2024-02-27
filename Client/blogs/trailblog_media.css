@@ -1,6 +1,11 @@
 @media screen and (max-width: 1000px){
-  
-
+    .header{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .header-two{
+        margin-bottom: 2rem;
+    }
     .content-one{
         gap: 1.5rem;
    flex-direction: column;
@@ -10,7 +15,7 @@
 
         flex-direction: column;
         
-    }
+    }   
     .card{
         width: 90%;
         gap: 1.5rem;
