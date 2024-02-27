@@ -1,9 +1,9 @@
 @media screen and (max-width: 1000px){
     .header{
-        height: 50vh;
+        height: 40vh;
         width: 100%;
         /* background-color: red; */
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
         text-align: center;
         display: flex;
         flex-direction: column;

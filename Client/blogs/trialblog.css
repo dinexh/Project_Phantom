@@ -120,23 +120,19 @@ body{
 }
 
 .header{
-    padding: 1rem 0rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    
 }
 .header-one{
      display: flex;
      align-items: center;
      font-size: 1rem;
-     /* border-bottom: 2px solid #8c9acf; */
      margin-top: 50px;
      justify-content: center;
 }
 .header-two{
-     /* padding: 1rem 0rem; */
      display: flex;
      align-items: center;
 }
@@ -149,7 +145,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
 .header-three-in-one{
     margin-left: 2px;
