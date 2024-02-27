@@ -10,73 +10,73 @@ body{
     color: white;
 }
 .nav {
-    width: 100%;
     background-color: black;
+    width: 100%;
     color: white;
     display: flex;
-    align-items: center; 
-    top: 0;
-    position: fixed;
+    align-items: center;
+    top:0;
+    position: sticky;
 }
-.header-one h1{
-    font-weight: bold;
-    font-size: 2rem;
-}
-.header-two p{
-    color: rgba(186, 203, 218, 0.674);
-    font-size: 1rem;
-}
+
 .nav-in {
     width: 95%;
     margin: auto;
     display: flex;
     padding: 0.5rem 0rem;
 }
+
 .nav-in-one {
     width: 20%;
 }
+
 .nav-in-one-in a {
     text-decoration: none;
     color: white;
+    font-size: 1rem;
 }
+
 .nav-in-one-in h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
 }
+
 .nav-in-two {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .nav-in-two-in {
     width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.nav-in-one-in span{
-    color: blue;
-}
 .nav-in-two-in a {
     text-decoration: none;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
 }
+
 .nav-in-one-in span{
-    color: blu;
+    color: blue;
 }
+
 .nav-in-three {
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .nav-in-three-in {
     width: 90%;
     margin: auto;
 }
+
 .nav-in-three-in a {
     text-decoration: none;
     border-radius: 0.9rem;
@@ -85,26 +85,40 @@ body{
     padding: 0.3rem 0.7rem;
 }
 
-.nav-in-two-in a:hover{
+.nav-in-two-in a:hover {
     transform: scale(1.2);
     z-index: 1;
     transition: .6s ease;
 }
 
-.nav-in-two-in :not(a:hover)
-{
+.nav-in-two-in :not(a:hover) {
     transition: .6s ease-in-out;
 }
 
-.nav-in-three-in a:hover{
-    background-color: blue; 
+
+.nav-in-three-in a:hover {
+    background-color: blue;
     transition: .5s ease;
 }
 
-.nav-in-three-in :not(a:hover){
-    background-color: black; 
+.nav-in-three-in :not(a:hover) {
+    background-color: black;
     transition: .5s ease;
 }
+
+.navtwo{
+    display: none;
+}
+
+.header-one h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.header-two p{
+    color: rgba(186, 203, 218, 0.674);
+    font-size: 1rem;
+}
+
 .header{
     padding: 1rem 0rem;
     display: flex;
