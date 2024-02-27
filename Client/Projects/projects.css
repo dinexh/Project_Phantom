@@ -68,121 +68,8 @@ h4{
 .y{
     padding-left: 10px;
 }
-/* ------------------------------- Footer ------------------------------ */
-
-footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    border-top: 1px solid grey;
-} 
-
-.footer-in{
-    width: 95%;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
-    padding: 1rem 0rem;
-}
-
-.footer-section{
-    width: 25%;
-    color: white;
-}
-.footer-section-one {
-    /* background-color: yellow; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-}
-.footer-section-one p {
-    text-decoration: none;
-    color: white;
-    font-size: 0.7rem;
-    padding: 0.3rem 0.7rem;
-    border-radius: 5px;
-    text-align: left;
-}
-
-.footer-section
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;    
-    text-align: center;
-}
-
-.footer-section-two, .footer-section-three, .footer-section-four {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.footer-section-one {
-    width: 40%;
-}
-.footer-section-two {
-    width: 15%;
-}
-.footer-section-three {
-    width: 15%;
-}
-.footer-section-four {
-    width: 30%;
-}
-
-.footer-section-two h3, .footer-section-three h3, .footer-section-four h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: rgb(146, 146, 146);
-}
-
-.footer-section-two a, .footer-section-three a, .footer-section-four a {
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    font-size: .8rem;
-}
-.footer-section-four {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.icons{
-    height: 5vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 2rem;
-}
-.Subsrcibe form input {
-    width: 90%;
-    border: 1px solid grey;
-    border-radius: 0;
-    background-color: white;
-    border: 1px;
-    padding: 0.5rem;
-    color: black;
-    margin-top: 0.4rem;
-}
-.Subsrcibe form button{
-    background-color: black;
-    border: 1px solid grey;
-    padding: 0.2rem 0.4rem;
-    margin-top: 0.4rem;
-    border-radius: 5px;
-}
-
 @media only screen and (max-width: 1000px) {
+/*  
     .cap{
         height: 10vh;
         width: 100%;
@@ -217,4 +104,33 @@ footer{
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+*/
+.Section-two{
+    height: 100vh;
+    width: 100%;
+}
+.cap{
+    text-align: center;
+    /* margin-bottom: rem; */
+}
+.container-in-two{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 5rem; */
+}
+.projects1{
+    display: flex;
+    flex-direction: column;
+}
+.projects3{
+    display: flex;
+    flex-direction: column;
+    width:;
+}
+footer{
+    margin-top: 75rem;
+    /* display: none; */
+}
 }
