@@ -57,13 +57,13 @@ h1,h2{
 h4{
     font-weight: lighter;
 }
-.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover{
+/* .one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover{
     border: 1px solid;
     box-shadow: rgba(250, 249, 249, 0.56) 0px 22px 70px 4px;
     transform: scale(0.9);
     z-index: 1;
     transition: .3s ease;
-}
+} */
 .y{
     padding-left: 10px;
 }

@@ -61,7 +61,6 @@ header {
 .card-three,
 .card-two,
 .card-four {
-
     height: 14rem;
     border: 2px solid #8c9acf;
     margin-top: 10px;
@@ -71,7 +70,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #text-card {
@@ -80,7 +78,6 @@ header {
     text-align: center;
     color: white;
     margin-top: 30px;
-
 }
 
 #link {
@@ -101,14 +98,6 @@ header {
 background: transparent;
 }
 
-.card-one:hover,
-.card-two:hover,
-.card-three:hover,
-.card-four:hover {
-    transform: scale(0.9);
-    box-shadow: #88a0fd 0px -65px 36px -28px inset;
-    transition: transform 0.5s ease, box-shadow 1.2s ease;
-}
 .main-in-four {
     margin-top: 20px;
 }
