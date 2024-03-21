@@ -93,7 +93,7 @@ html {
         padding: 0.3rem 0.7rem;
     }
 
-    .nav-in-two-in a:hover {
+    /* .nav-in-two-in a:hover {
         transform: scale(1.2);
         z-index: 1;
         transition: .6s ease;
@@ -101,7 +101,7 @@ html {
 
     .nav-in-two-in :not(a:hover) {
         transition: .6s ease-in-out;
-    }
+    } */
 
 
     .nav-in-three-in a:hover {
@@ -112,10 +112,6 @@ html {
     .nav-in-three-in :not(a:hover) {
         background-color: black;
         transition: .5s ease;
-    }
-
-    .navtwo{
-        display: none;
     }
 
 /* ------------------------------ Hero -------------------------------*/
