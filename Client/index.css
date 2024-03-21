@@ -93,15 +93,12 @@ html {
         padding: 0.3rem 0.7rem;
     }
 
-    /* .nav-in-two-in a:hover {
-        transform: scale(1.2);
-        z-index: 1;
-        transition: .6s ease;
+    .nav-in-two-in a:hover { 
+        color: grey;
+        /* transition: 6ms; */
     }
 
-    .nav-in-two-in :not(a:hover) {
-        transition: .6s ease-in-out;
-    } */
+
 
 
     .nav-in-three-in a:hover {
