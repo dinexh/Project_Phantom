@@ -8,7 +8,8 @@
     background-color: black;
 }
 .Section-two{
-    height: 150vh;
+    /* height: 150vh; */
+    /* padding: 80÷rem; */
     width: 100%;
 }
 .cap{
@@ -32,7 +33,7 @@
     margin-bottom: 20px;
 }
 .container-in-two{
-
+    /* background-color: red; */
     width: 80%;
     color: white;
     margin: auto;
