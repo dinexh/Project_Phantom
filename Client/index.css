@@ -183,7 +183,8 @@ html {
 }
 
 .about-in-two {
-    height: 64vh;
+    /* height: 64vh; */
+    /* padding: 4rem; */
     width: 47%;
 }
 
