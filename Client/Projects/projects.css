@@ -44,8 +44,8 @@
     margin: 10px;
 }
 .one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
-    border: 1px solid;
-    border-color: radial(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);
+    border: 1px solid grey;
+    /* border-color: radial(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%); */
     overflow: hidden;
     margin: 10px;
     text-align: left;

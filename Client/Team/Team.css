@@ -62,7 +62,7 @@ header {
 .card-two,
 .card-four {
     height: 14rem;
-    border: 2px solid #8c9acf;
+    border: 2px solid grey;
     margin-top: 10px;
     width: 20%;
     border-radius: 0.4rem;
