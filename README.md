@@ -1,8 +1,8 @@
-# ZeroOne Club Website
+# Phantom Website
 
 ## Introduction
 
-The ZeroOne Club Website is a showcase platform designed to highlight the achievements, projects, and activities of the ZeroOne Club's Phantom team. The website serves as a central hub for the club's members and provides information about the team's focus on project development, learning, and teaching beyond academic pursuits.
+The Phantom Website is a showcase platform designed to highlight the achievements, projects, and activities of the ZeroOne Club's Phantom team. The website serves as a central hub for the club's members and provides information about the team's focus on project development, learning, and teaching beyond academic pursuits.
 
 ## Features
 
@@ -18,9 +18,7 @@ To install and run the ZeroOne Club Website locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/zeroone-club-website.git`
 2. Navigate to the project directory: `cd zeroone-club-website`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your web browser and visit `http://localhost:3000` to view the website.
+3. Open your web browser and visit `http://localhost:3000` to view the website.
 
 ## Usage
 
